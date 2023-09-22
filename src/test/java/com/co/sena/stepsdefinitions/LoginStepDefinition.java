@@ -1,5 +1,8 @@
 package com.co.sena.stepsdefinitions;
 
+import com.co.sena.models.LoginCredential;
+import com.co.sena.tasks.LoginTask;
+import com.co.sena.userinterfaces.LoginPage;
 import cucumber.api.java.Before;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -10,6 +13,8 @@ import net.serenitybdd.screenplay.actors.Cast;
 import net.serenitybdd.screenplay.actors.OnStage;
 import net.thucydides.core.annotations.Managed;
 import org.openqa.selenium.WebDriver;
+
+import java.util.List;
 
 public class LoginStepDefinition {
 
@@ -31,7 +36,13 @@ public class LoginStepDefinition {
     }
 
     @When("^he user enter the credentials$")
-    public void heUserEnterTheCredentials() {
+    public void heUserEnterTheCredentials(List<LoginCredential> loginCredentialList) {
+
+        LoginCredential loginCredential;
+        loginCredential = loginCredentialList.get(0);
+
+
+        OnStage.theActorInTheSpotlight().attemptsTo(LoginTask.enterCredential(loginCredential));
 
     }
 

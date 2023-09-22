@@ -1,0 +1,2555 @@
+<html dir="ltr" lang="es" xml:lang="es" class="yui3-js-enabled js no-touch csstransitions"><head>
+    <title>izyacademy</title>
+    <link rel="shortcut icon" href="https://izyacademy.com/pluginfile.php/1/theme_edumy/favicon/1692394958/favicon%20%281%29.png">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="keywords" content="Formación, Proyectos, Aprendizaje, Adaptabilidad, Upskilling, Reskilling, Automatización, Desarrollo, Software">
+<link rel="stylesheet" type="text/css" href="https://izyacademy.com/theme/yui_combo.php?rollup/3.17.2/yui-moodlesimple-min.css"><script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=G-73WJ5W92J8&amp;l=dataLayer&amp;cx=c"></script><script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=G-68BFN0SBTH&amp;l=dataLayer&amp;cx=c"></script><script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-MNCSKX8"></script><script src="https://connect.facebook.net/signals/config/295803613187999?v=2.9.128&amp;r=stable&amp;domain=izyacademy.com" async=""></script><script src="https://connect.facebook.net/signals/config/6179021505470767?v=2.9.128&amp;r=stable&amp;domain=izyacademy.com" async=""></script><script async="" src="https://connect.facebook.net/en_US/fbevents.js"></script><script charset="utf-8" id="yui_3_17_2_1_1695394806940_8" src="https://izyacademy.com/theme/yui_combo.php?m/1687275243/core/event/event-min.js&amp;m/1687275243/filter_mathjaxloader/loader/loader-min.js" async=""></script><script charset="utf-8" id="yui_3_17_2_1_1695394806940_19" src="https://izyacademy.com/theme/yui_combo.php?3.17.2/event-mousewheel/event-mousewheel-min.js&amp;3.17.2/event-resize/event-resize-min.js&amp;3.17.2/event-hover/event-hover-min.js&amp;3.17.2/event-touch/event-touch-min.js&amp;3.17.2/event-move/event-move-min.js&amp;3.17.2/event-flick/event-flick-min.js&amp;3.17.2/event-valuechange/event-valuechange-min.js&amp;3.17.2/event-tap/event-tap-min.js" async=""></script><script id="firstthemesheet" type="text/css">/** Required in order to fix style inclusion problems in IE with YUI **/</script><link rel="stylesheet" type="text/css" href="https://izyacademy.com/theme/styles.php/edumy/1692394958_1/all">
+<script>
+//<![CDATA[
+var M = {}; M.yui = {};
+M.pageloadstarttime = new Date();
+M.cfg = {"wwwroot":"https:\/\/izyacademy.com","homeurl":{},"sesskey":"DOZfdIREnR","sessiontimeout":"7200","sessiontimeoutwarning":1200,"themerev":"1692394958","slasharguments":1,"theme":"edumy","iconsystemmodule":"core\/icon_system_fontawesome","jsrev":"1687275243","admin":"admin","svgicons":true,"usertimezone":"Am\u00e9rica\/Bogot\u00e1","courseId":1,"courseContextId":2,"contextid":2,"contextInstanceId":1,"langrev":1695288366,"templaterev":"1687275243"};var yui1ConfigFn = function(me) {if(/-skin|reset|fonts|grids|base/.test(me.name)){me.type='css';me.path=me.path.replace(/\.js/,'.css');me.path=me.path.replace(/\/yui2-skin/,'/assets/skins/sam/yui2-skin')}};
+var yui2ConfigFn = function(me) {var parts=me.name.replace(/^moodle-/,'').split('-'),component=parts.shift(),module=parts[0],min='-min';if(/-(skin|core)$/.test(me.name)){parts.pop();me.type='css';min=''}
+if(module){var filename=parts.join('-');me.path=component+'/'+module+'/'+filename+min+'.'+me.type}else{me.path=component+'/'+component+'.'+me.type}};
+YUI_config = {"debug":false,"base":"https:\/\/izyacademy.com\/lib\/yuilib\/3.17.2\/","comboBase":"https:\/\/izyacademy.com\/theme\/yui_combo.php?","combine":true,"filter":null,"insertBefore":"firstthemesheet","groups":{"yui2":{"base":"https:\/\/izyacademy.com\/lib\/yuilib\/2in3\/2.9.0\/build\/","comboBase":"https:\/\/izyacademy.com\/theme\/yui_combo.php?","combine":true,"ext":false,"root":"2in3\/2.9.0\/build\/","patterns":{"yui2-":{"group":"yui2","configFn":yui1ConfigFn}}},"moodle":{"name":"moodle","base":"https:\/\/izyacademy.com\/theme\/yui_combo.php?m\/1687275243\/","combine":true,"comboBase":"https:\/\/izyacademy.com\/theme\/yui_combo.php?","ext":false,"root":"m\/1687275243\/","patterns":{"moodle-":{"group":"moodle","configFn":yui2ConfigFn}},"filter":null,"modules":{"moodle-core-maintenancemodetimer":{"requires":["base","node"]},"moodle-core-handlebars":{"condition":{"trigger":"handlebars","when":"after"}},"moodle-core-languninstallconfirm":{"requires":["base","node","moodle-core-notification-confirm","moodle-core-notification-alert"]},"moodle-core-formchangechecker":{"requires":["base","event-focus","moodle-core-event"]},"moodle-core-popuphelp":{"requires":["moodle-core-tooltip"]},"moodle-core-blocks":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification"]},"moodle-core-actionmenu":{"requires":["base","event","node-event-simulate"]},"moodle-core-lockscroll":{"requires":["plugin","base-build"]},"moodle-core-notification":{"requires":["moodle-core-notification-dialogue","moodle-core-notification-alert","moodle-core-notification-confirm","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-core-notification-dialogue":{"requires":["base","node","panel","escape","event-key","dd-plugin","moodle-core-widget-focusafterclose","moodle-core-lockscroll"]},"moodle-core-notification-alert":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-confirm":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-exception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-ajaxexception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-chooserdialogue":{"requires":["base","panel","moodle-core-notification"]},"moodle-core-tooltip":{"requires":["base","node","io-base","moodle-core-notification-dialogue","json-parse","widget-position","widget-position-align","event-outside","cache-base"]},"moodle-core-event":{"requires":["event-custom"]},"moodle-core-dragdrop":{"requires":["base","node","io","dom","dd","event-key","event-focus","moodle-core-notification"]},"moodle-core_availability-form":{"requires":["base","node","event","event-delegate","panel","moodle-core-notification-dialogue","json"]},"moodle-backup-backupselectall":{"requires":["node","event","node-event-simulate","anim"]},"moodle-backup-confirmcancel":{"requires":["node","node-event-simulate","moodle-core-notification-confirm"]},"moodle-course-management":{"requires":["base","node","io-base","moodle-core-notification-exception","json-parse","dd-constrain","dd-proxy","dd-drop","dd-delegate","node-event-delegate"]},"moodle-course-util":{"requires":["node"],"use":["moodle-course-util-base"],"submodules":{"moodle-course-util-base":{},"moodle-course-util-section":{"requires":["node","moodle-course-util-base"]},"moodle-course-util-cm":{"requires":["node","moodle-course-util-base"]}}},"moodle-course-categoryexpander":{"requires":["node","event-key"]},"moodle-course-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-course-coursebase","moodle-course-util"]},"moodle-form-dateselector":{"requires":["base","node","overlay","calendar"]},"moodle-form-shortforms":{"requires":["node","base","selector-css3","moodle-core-event"]},"moodle-form-passwordunmask":{"requires":[]},"moodle-question-chooser":{"requires":["moodle-core-chooserdialogue"]},"moodle-question-searchform":{"requires":["base","node"]},"moodle-question-preview":{"requires":["base","dom","event-delegate","event-key","core_question_engine"]},"moodle-availability_completion-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_date-form":{"requires":["base","node","event","io","moodle-core_availability-form"]},"moodle-availability_grade-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_group-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_grouping-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_profile-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_xp-form":{"requires":["base","node","event","handlebars","moodle-core_availability-form"]},"moodle-mod_assign-history":{"requires":["node","transition"]},"moodle-mod_customcert-rearrange":{"requires":["dd-delegate","dd-drag"]},"moodle-mod_quiz-modform":{"requires":["base","node","event"]},"moodle-mod_quiz-util":{"requires":["node","moodle-core-actionmenu"],"use":["moodle-mod_quiz-util-base"],"submodules":{"moodle-mod_quiz-util-base":{},"moodle-mod_quiz-util-slot":{"requires":["node","moodle-mod_quiz-util-base"]},"moodle-mod_quiz-util-page":{"requires":["node","moodle-mod_quiz-util-base"]}}},"moodle-mod_quiz-quizbase":{"requires":["base","node"]},"moodle-mod_quiz-questionchooser":{"requires":["moodle-core-chooserdialogue","moodle-mod_quiz-util","querystring-parse"]},"moodle-mod_quiz-toolboxes":{"requires":["base","node","event","event-key","io","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-slot","moodle-core-notification-ajaxexception"]},"moodle-mod_quiz-autosave":{"requires":["base","node","event","event-valuechange","node-event-delegate","io-form"]},"moodle-mod_quiz-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-base","moodle-mod_quiz-util-page","moodle-mod_quiz-util-slot","moodle-course-util"]},"moodle-message_airnotifier-toolboxes":{"requires":["base","node","io"]},"moodle-block_xp-rulepicker":{"requires":["base","node","handlebars","moodle-core-notification-dialogue"]},"moodle-block_xp-filters":{"requires":["base","node","moodle-core-dragdrop","moodle-core-notification-confirm","moodle-block_xp-rulepicker"]},"moodle-block_xp-notification":{"requires":["base","node","handlebars","button-plugin","moodle-core-notification-dialogue"]},"moodle-filter_glossary-autolinker":{"requires":["base","node","io-base","json-parse","event-delegate","overlay","moodle-core-event","moodle-core-notification-alert","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-filter_mathjaxloader-loader":{"requires":["moodle-core-event"]},"moodle-editor_atto-rangy":{"requires":[]},"moodle-editor_atto-editor":{"requires":["node","transition","io","overlay","escape","event","event-simulate","event-custom","node-event-html5","node-event-simulate","yui-throttle","moodle-core-notification-dialogue","moodle-core-notification-confirm","moodle-editor_atto-rangy","handlebars","timers","querystring-stringify"]},"moodle-editor_atto-plugin":{"requires":["node","base","escape","event","event-outside","handlebars","event-custom","timers","moodle-editor_atto-menu"]},"moodle-editor_atto-menu":{"requires":["moodle-core-notification-dialogue","node","event","event-custom"]},"moodle-report_eventlist-eventfilter":{"requires":["base","event","node","node-event-delegate","datatable","autocomplete","autocomplete-filters"]},"moodle-report_loglive-fetchlogs":{"requires":["base","event","node","io","node-event-delegate"]},"moodle-report_overviewstats-charts":{"requires":["base","node","charts","charts-legend"]},"moodle-gradereport_history-userselector":{"requires":["escape","event-delegate","event-key","handlebars","io-base","json-parse","moodle-core-notification-dialogue"]},"moodle-qbank_editquestion-chooser":{"requires":["moodle-core-chooserdialogue"]},"moodle-tool_capability-search":{"requires":["base","node"]},"moodle-tool_lp-dragdrop-reorder":{"requires":["moodle-core-dragdrop"]},"moodle-tool_monitor-dropdown":{"requires":["base","event","node"]},"moodle-assignfeedback_editpdf-editor":{"requires":["base","event","node","io","graphics","json","event-move","event-resize","transition","querystring-stringify-simple","moodle-core-notification-dialog","moodle-core-notification-alert","moodle-core-notification-warning","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-atto_accessibilitychecker-button":{"requires":["color-base","moodle-editor_atto-plugin"]},"moodle-atto_accessibilityhelper-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_align-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_bold-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_charmap-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_clear-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_collapse-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_emojipicker-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_emoticon-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_equation-button":{"requires":["moodle-editor_atto-plugin","moodle-core-event","io","event-valuechange","tabview","array-extras"]},"moodle-atto_h5p-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_html-beautify":{},"moodle-atto_html-codemirror":{"requires":["moodle-atto_html-codemirror-skin"]},"moodle-atto_html-button":{"requires":["promise","moodle-editor_atto-plugin","moodle-atto_html-beautify","moodle-atto_html-codemirror","event-valuechange"]},"moodle-atto_image-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_indent-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_italic-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_link-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_managefiles-usedfiles":{"requires":["node","escape"]},"moodle-atto_managefiles-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_media-button":{"requires":["moodle-editor_atto-plugin","moodle-form-shortforms"]},"moodle-atto_noautolink-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_orderedlist-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_recordrtc-recording":{"requires":["moodle-atto_recordrtc-button"]},"moodle-atto_recordrtc-button":{"requires":["moodle-editor_atto-plugin","moodle-atto_recordrtc-recording"]},"moodle-atto_rtl-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_strike-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_subscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_superscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_table-button":{"requires":["moodle-editor_atto-plugin","moodle-editor_atto-menu","event","event-valuechange"]},"moodle-atto_title-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_underline-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_undo-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_unorderedlist-button":{"requires":["moodle-editor_atto-plugin"]}}},"gallery":{"name":"gallery","base":"https:\/\/izyacademy.com\/lib\/yuilib\/gallery\/","combine":true,"comboBase":"https:\/\/izyacademy.com\/theme\/yui_combo.php?","ext":false,"root":"gallery\/1687275243\/","patterns":{"gallery-":{"group":"gallery"}}}},"modules":{"core_filepicker":{"name":"core_filepicker","fullpath":"https:\/\/izyacademy.com\/lib\/javascript.php\/1687275243\/repository\/filepicker.js","requires":["base","node","node-event-simulate","json","async-queue","io-base","io-upload-iframe","io-form","yui2-treeview","panel","cookie","datatable","datatable-sort","resize-plugin","dd-plugin","escape","moodle-core_filepicker","moodle-core-notification-dialogue"]},"core_comment":{"name":"core_comment","fullpath":"https:\/\/izyacademy.com\/lib\/javascript.php\/1687275243\/comment\/comment.js","requires":["base","io-base","node","json","yui2-animation","overlay","escape"]},"mathjax":{"name":"mathjax","fullpath":"https:\/\/cdn.jsdelivr.net\/npm\/mathjax@2.7.9\/MathJax.js?delayStartupUntil=configured"}}};
+M.yui.loader = {modules: {}};
+
+//]]>
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-217346189-1"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date()); gtag('config', 'UA-217346189-1');
+</script>
+<!-- Metricool - Moodle -->
+<script>function loadScript(a){var b=document.getElementsByTagName("head")[0],c=document.createElement("script");c.type="text/javascript",c.src="https://tracker.metricool.com/resources/be.js",c.onreadystatechange=a,c.onload=a,b.appendChild(c)}loadScript(function(){beTracker.t({hash:"783ee75b272f1c652a0e98b9ac836d03"})});</script><script type="text/javascript" src="https://tracker.metricool.com/resources/be.js"></script>
+
+<!-- Meta Pixel Code -->
+
+<script>
+
+  !function(f,b,e,v,n,t,s)
+
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+
+  n.queue=[];t=b.createElement(e);t.async=!0;
+
+  t.src=v;s=b.getElementsByTagName(e)[0];
+
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+
+  'https://connect.facebook.net/en_US/fbevents.js');
+
+  fbq('init', '6179021505470767');
+
+  fbq('track', 'PageView');
+
+</script>
+
+<noscript><img height="1" width="1" style="display:none"
+
+  src=https://www.facebook.com/tr?id=6179021505470767&ev=PageView&noscript=1
+
+/></noscript>
+
+<!-- End Meta Pixel Code -->
+
+<!-- Hotjar Tracking Code for izyacademy --> 
+
+<script> 
+(function(h,o,t,j,a,r){ h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)}; h._hjSettings={hjid:3385606,hjsv:6}; a=o.getElementsByTagName('head')[0]; r=o.createElement('script');r.async=1; r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv; a.appendChild(r); })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv='); 
+</script><script async="" src="https://static.hotjar.com/c/hotjar-3385606.js?sv=6"></script>
+
+<!-- End Hotjar Tracking Code for izyacademy -->
+
+<!-- Google Tag Manager --><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MNCSKX8');</script><!-- End Google Tag Manager -->
+
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '295803613187999');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=295803613187999&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code --><meta name="description" content="izyacademy es una plataforma de formación virtual, que a través de proyectos, juegos, evaluaciones y casos de estudio distribuidos en distintas rutas de aprendizaje, enseña las habilidades para dar tu próximo paso en el mundo laboral.">
+<meta name="abstract" content="izyacademy es una plataforma de formación virtual, que a través de proyectos, juegos, evaluaciones y casos de estudio distribuidos en distintas rutas de aprendizaje, enseña las habilidades para dar tu próximo paso en el mundo laboral.">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>/* Inicia código Parallax Científico de datos*/
+div#inst13645 h1 {
+    color: #f5ad0c!important;
+    text-transform: lowercase!important;
+}
+
+#inst13645 a.btn.btn-transparent.divider-btn {
+    background: #00b79e!important;
+}
+
+#inst13645 a.btn.btn-transparent.divider-btn:hover {
+    background: #073b6c!important;
+    border: none!important;
+}
+/* Finaliza código Parallax Científico de datos*/
+
+/*Inicia codigo Giovanni Sticker ruta ASP .NET */
+.sticker-proximo{
+    position: absolute;
+    transform: translatey(-100%);
+    right:4%;
+    top: 7%;
+    width: 25%;}
+
+  
+  @media(min-width:768px){
+    .box.py-3.generalbox.info .sticker-proximo{
+      display: none;}
+  }
+  
+  @media screen and (min-width: 768px) and (max-width: 991px) {
+    .courses.row.category-browse-62 .top_courses .thumb{
+    height: 380px !important;}
+    
+    .sticker-proximo{
+    position: absolute;
+    transform: translatey(-100%);
+    right:4%;
+    top: 14% !important;
+    width: 20%;}
+    
+    .top_courses .details .tc_content h5{
+    font-size: 20px;}
+  }
+  
+  @media screen and (min-width:500px) and (max-width:768px){
+   .sticker-proximo{
+    position: absolute;
+    transform: translatey(-100%);
+    right:4%;
+    top: 7% !important;
+    width: 20%;} 
+  }
+  /*Finaliza codigo Giovanni Sticker ruta ASP .NET */
+  
+  /*Inicia código Orden Stickers cient. de datos */
+.orden-cientifico{
+    position: absolute;
+    left:0%;
+    top: -3%;
+    width: 42%;}
+
+div#inst7022 .orden-cientifico {
+    display: none;
+}
+
+@media (max-width: 300px){
+  .orden-cientifico{
+    left:0%;
+    top: -2.2%;
+    width: 68%;}
+}
+
+
+@media screen and (min-width: 300px) and (max-width: 410px) {
+  .orden-cientifico{
+    left:0%;
+    top: -2.2%;
+    width: 53%;}
+}
+
+@media screen and (min-width: 410px) and (max-width: 500px) {
+  .orden-cientifico{
+    left:0%;
+    top: -4%;
+    width: 51%;}
+}
+
+@media screen and (min-width: 500px) and (max-width: 550px) {
+  .orden-cientifico{
+    left:0%;
+    top: -4%;
+    width: 41%;}
+}
+
+@media screen and (min-width: 550px) and (max-width: 820px) {
+  .orden-cientifico{
+    left:-.5%;
+    top: -8%;
+    width: 35%;}
+}
+
+@media screen and (min-width: 820px) and (max-width: 991px) {
+  .orden-cientifico{
+    left:0%;
+    top: -8%;
+    width: 35%;}
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1349px) {
+  .orden-cientifico{
+    left:0%;
+    top: -3%;
+    width: 51%;}
+}
+
+
+  /*Finaliza código Orden Stickers cient. de datos */
+  
+  /*Inicia codigo Giovanni para modificar tarj ruta Cient. de Datos */
+  @media screen and (min-width: 768px) and (max-width: 991px){
+  .courses.row.category-browse-54 .top_courses .thumb{
+    height: 380px !important;}
+    
+    #inst13642 .about_thumb{
+    margin: auto !important;}
+  } 
+  /*Finalizacodigo Giovanni para modificar tarj ruta Cient. de Datos */
+  
+  
+  /* CODIGO PARA ESCONDER EL "MÁS" DEL HOME */
+  li.nav-item.dropdown.dropdownmoremenu a {
+      color: white;
+  }
+  /* FINALIZA PARA ESCONDER EL "MÁS" DEL HOME */
+  
+  /* Comienza codigo BORDER HEADER */
+  header {
+  border: none !important;
+  }
+  /* finaliza codigo BORDER HEADER */
+  
+  /*--INICIA CODIGO PARA OCULTAR BLOQUE EN PAG, CIENT. DE DATOS---*/
+  #inst16950 .title{
+  color: white !important;
+  }
+  /*---TERMINA CODIGO PARA OCULTAR BLOQUE EN PAG, CIENT. DE DATOS---*/
+  
+  /*Inicia código height slider cient. de datos */
+  section.home-three.home3-overlay.home3_bgi6 {
+    height: 580px !important;
+  }
+  /*Termina código height slider cient. de datos */
+  
+  #inst13696 .banner-sub-title.text-capitalize.fw400 {
+      margin-top: -100px;
+  }
+  
+  #inst13699 .col-lg-12.text-center {
+      margin-top: -50px;
+  } 
+  
+  
+  .main-title h3 {
+    color: #1D3A6C;
+  }
+  
+  header.header-nav.menu_style_home_one a.navbar_brand span, header.header-nav.menu_style_home_three a.navbar_brand span, header.header-nav.menu_style_home_five a.navbar_brand span {
+    text-transform: capitalize;
+  }
+  
+  .logo-widget span {
+    text-transform: capitalize !important;
+  }
+  
+  
+  header.header-nav.menu_style_home_one.stricky-fixed .ace-responsive-menu>li>a.active span, header.header-nav.menu_style_home_one.stricky-fixed .ace-responsive-menu li a.active span, header.header-nav.menu_style_home_one.stricky-fixed .ace-responsive-menu li a, header.header-nav.menu_style_home_one.stricky-fixed a.navbar_brand span, header.header-nav.menu_style_home_one.stricky-fixed .sign_up_btn .btn, header.header-nav.menu_style_home_one.stricky-fixed #search-button i {
+    color: #1D3A6C;
+  }
+  
+  .main-banner-wrapper .carousel-btn-block .carousel-btn{
+    font-size: 27px;
+    font-weight: bold;
+  }
+  .top_courses .details .tc_content h5{
+    font-weight: bold;
+  }
+  .footer_one{
+    color: rgb(188,198,222);
+  }
+  .ccn-menu-item{
+    text-transform: capitalize !important;
+  }
+  .boton-whatsapp {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 1px 1px 5px rgba(0,0,0,.2);
+  z-index: 100;
+  transition: all .3s ease;
+  }
+  .wht-flotante {
+  margin-top: 14px;
+  }
+  @media (min-width: 320px) and (max-width: 470px){
+    .boton-whatsapp {
+      right: 4%;
+      bottom: 15%;
+    }
+  }
+  @media (min-width: 471px) and (max-width: 988px){
+    .boton-whatsapp {
+      right: 2%;
+      bottom: 15%;
+    }
+  }
+  @media (min-width: 989px){
+    .boton-whatsapp {
+      right: 12px;
+      bottom: 135px;
+    } 
+  }
+  
+  /* Inicia Código para quitar margin bottom a P*/
+  @media(max-width:700px){
+   .DevOps {
+     margin-bottom: 0px !important;
+  }
+    .Design {
+     margin-bottom: 30px !important;
+  }
+   }
+  /*Termina Código para quitar margin bottom a los P*/
+  
+  /*Inicia Código para hover botones Home*/
+  #inst7020 a:hover {
+      background: #073b6c !important;
+      color: white !important;
+  }
+  
+  #inst14491 a:hover {
+      background: #073b6c !important;
+      color: white !important;
+  }
+  /*Termina Código para hover botones Home*/
+  
+  
+  /*Codigo pagina principal Juan */
+  /* Inicia codigo para el slider princiapl de Izy*/
+  .owl-carousel .owl-stage-outer{
+    height: 400px;
+  }
+  @media(max-width:700px){
+    .owl-carousel .owl-stage-outer{
+    height: 450px;
+   }
+  }
+  /*Titulos*/
+  .home1-mainslider .banner-style-one .banner-title {
+      max-width: 1100px;
+  }
+  @media(max-width:700px){
+    .home1-mainslider .banner-style-one .banner-title {
+      font-size: 30px;
+   }
+  }
+  /*Textos*/
+  .block_cocoon_slider_1 .banner-style-one p {
+      max-width: 800px;
+  }
+  @media(max-width:700px){
+    .block_cocoon_slider_1 .banner-style-one p {
+      font-size: 15px;
+  }
+  }
+  /*bloque de altura de los textos*/
+  
+ .block_cocoon_slider_1 .home1-mainslider .home-content-inner{ 
+    margin-top: -100px; 
+  }
+
+ .block_cocoon_slider_1 .home1-mainslider .home-content-inner .btn-block{
+margin-top: 100px;}
+
+
+  
+  /*--INICIO CAMBIO DE IMAGENES SLIDE PRINCIPAL--INICIO--*/
+  @media(max-width:362px)
+    { #inst7025 .owl-stage-outer .owl-stage
+      .owl-item.active .slide.slide-one[data-ccn="file_slide1"]{
+        background-image: url("https://i.pinimg.com/originals/c2/91/86/c29186ab3ddce3bd4972c245f1b0e07a.png")!important;
+        background-repeat: no-repeat !important;
+     }
+   }
+  
+     @media(max-width:750px)
+    { #inst7025 .owl-stage-outer .owl-stage
+      .owl-item.active .slide.slide-one[data-ccn="file_slide1"]{
+        background-image: url("https://i.pinimg.com/originals/54/07/11/5407118f18bd8d9541115bace3770c7a.png")!important;
+        background-repeat: no-repeat !important;
+    }
+  }
+  
+  @media (min-width:910px){
+      #inst7025 .owl-stage-outer .owl-stage
+      .owl-item.active .slide.slide-one[data-ccn="file_slide1"]{
+        background-image: url("https://i.pinimg.com/originals/31/5b/35/315b358d65fdf3f039945ba8d749f25c.png")!important;
+        background-repeat: no-repeat !important;
+     } 
+  }
+  
+  @media (min-width:760px){
+      #inst7025 .owl-stage-outer .owl-stage
+      .owl-item.active .slide.slide-one[data-ccn="file_slide1"]{
+        background-image: url("https://i.pinimg.com/originals/3e/b5/74/3eb57409c55e0608e307efc396b6c670.png")!important;
+        background-repeat: no-repeat !important;
+     } 
+  }
+  
+  /*slider n2*/
+  
+  @media(max-width:750px)
+    { #inst7025 .owl-stage-outer .owl-stage
+      .owl-item.active .slide.slide-one[data-ccn="file_slide2"]{
+        background-image: url("https://i.pinimg.com/originals/70/f8/51/70f851ad4e864ac27d66e485e7451eb1.png")!important;
+        background-repeat: no-repeat !important;
+     }
+   }
+  @media (min-width:910px){
+      #inst7025 .owl-stage-outer .owl-stage
+      .owl-item.active .slide.slide-one[data-ccn="file_slide2"]{
+        background-image: url("https://i.pinimg.com/originals/05/55/57/0555574cea7fd8a8fae47bdea06f9399.png")!important;
+        background-repeat: no-repeat !important;
+     } 
+  }
+  
+  @media (min-width:760px){
+      #inst7025 .owl-stage-outer .owl-stage
+      .owl-item.active .slide.slide-one[data-ccn="file_slide2"]{
+        background-image: url("https://i.pinimg.com/originals/7f/c1/fb/7fc1fba713f2f151d3df5135694a7428.png")!important;
+        background-repeat: no-repeat !important;
+     } 
+  }
+  
+  
+  @media(max-width:362px)
+    { #inst7025 .owl-stage-outer .owl-stage
+      .owl-item.active .slide.slide-one[data-ccn="file_slide2"]{
+        background-image: url("https://i.pinimg.com/originals/35/c0/f2/35c0f2a1ef91dded06b7f673f00088d1.png")!important;
+        background-repeat: no-repeat !important;
+     }
+   }
+  @media only screen and (max-width: 360px){
+  #inst7025 .home1-mainslider {
+      height: 100vh!important;
+      max-height: 65vh!important;
+  }
+  }
+  
+  /*-----FIN CAMBIO DE IMAGENES SLIDE PRINCIPAL---FIN-----*/
+  /*----------- Finaliza codigo para el slider princiapl de Izy---------------*/
+  
+  /* Codigo para quitar la opacidad del slider principal*/
+  .home1-mainslider .banner-style-one .slide:before {
+    background-color: #1D3A6C;
+    opacity: .6;
+  } 
+  /*
+  header.header-nav {
+      padding: 0 10px;
+      background-color: rgba(28,60,108,0.6);
+  } */
+  /* Fin del codigo para quitar la opacidad del slider principal*/
+  /* targeta de inicion IzyAcademy*/
+  .owl-carousel {
+    height: 500px;
+  }
+  #inst13610 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .about_thumb {
+    width: 450px; 
+  }
+  .img-fluid img:nth-of-type(1){
+    width: 450px;  
+    height: 450px;
+  }
+  .about_thumb img:nth-of-type(1){
+    border-radius: 100%;
+  }
+  #inst13602{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; 
+    padding: -20px 0px 0px 0px;
+  }
+  @media(min-width:1487px){
+  #inst13602{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0px 0px 0px;
+    width: 100%; 
+    padding: 0px 0px 0px 0px;
+   }
+  }
+  @media(max-width:700px){
+    #inst13602 .col-lg-6{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 80%; 
+    padding: 0px 0px 0px 100px;
+    }
+  }
+  #inst13602 .col-lg-6 {
+    display:flex;
+    justify-content: end;
+    align-items: center;
+  }
+  #inst13602 .ccn-icon-reset{
+    display:flex;
+    justify-content: end;
+    align-items: center;
+  }
+  /* fin del codigo targeta de inicion IzyAcademy*/
+  /* Slider style 7 y slider 2 */
+  .banner-style-one .slide.home14:before {
+   background-color: #1D3A6C;
+   opacity: .8;
+  }
+  .banner-style-one .slide:before, .banner-style-two .slide:before {
+    background-color: #1D3A6C;
+    opacity: .8;
+  }
+  /* Codigo del scroll de IzyAcademy */
+  body::-webkit-scrollbar{
+      width: 15px;
+     }
+  body::-webkit-scrollbar-thumb{
+      background: #1C3C6C;
+      border-radius: 10px;
+      border-right: 1px solid #fff;
+      border-left: 1px solid #fff;
+     }
+  body::-webkit-scrollbar-thumb:hover{
+      background: #44B49B;
+     }
+  /* Fin del Codigo del scroll de IzyAcademy */
+  
+  /*Codigo del paralex ANÍMATE E INICIA TU CERTIFICACIÓN */
+  
+  @media(max-width:700px){
+  #inst13696 .banner-style-one .active .banner-sub-title {
+      font-size: 38px;
+    }
+   
+    #inst14015{
+    margin-top: 410px;}
+    
+    div#inst13741 {
+      margin-top: -100px;
+  }
+    
+    #inst13741 h3{
+    font-size: 34px !important;}
+    
+    #inst16995 section.pago-1{
+    margin-top: -100px;
+    margin-bottom: 30px;}
+    
+    #inst14015 section#our-testimonials {
+      margin-top: -140px;
+  }
+    
+  #our-top-courses{
+  padding-top:0px !important;}
+  
+  div#inst13611 h3 {
+      margin-top: 30px !important;
+  }
+  
+  /*Código metodos de pago cient. de datos*/
+  
+  
+  #inst16995 h2{
+  margin-top: -35px;}
+  
+  .owl-dots {
+      margin-top: -100px;
+  }
+    
+    #inst16995 .info h2{
+    font-size: 26px;}
+   }
+  /*Código metodos de pago cient. de datos*/
+  
+  /*Fin del codigo del paralex ANÍMATE E INICIA TU CERTIFICACIÓN */
+  
+  /*Inicio codigo banner siempre se puede ser mejor*/
+  @media(max-width:700px){
+  #inst13699 .banner-title {
+      margin-top: 60px;
+   }
+  }
+    
+  /*fin codigo banner siempre se puede ser mejor*/
+  
+  /*Fin del codigo pagina principal Juan */
+  
+  /* Codigo de la Landing de Cientifico de Datos -- Juan - Felipe */
+  /*slider principal */
+  .home3_bgi6{
+    height: 650px;
+  }
+    
+  .row_style svg.waves {
+    height:130px;
+  }
+  .home-three .home-text {
+      margin: 0 auto;
+      left: 0;
+      padding: 260px 0;
+      position: absolute;
+      right: 0;
+  }
+  /* termina slider principal */
+  
+  #inst13652 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  } 
+  .about_thumb {
+    width: 450px; 
+  }
+  .img-fluid img:nth-of-type(1){
+    width: 450px;  
+    height: 450px;
+  }
+  .about_thumb img:nth-of-type(1){
+    border-radius: 100%;
+  }
+  /* codigo de la galeria donde se muestra la insiginia digital el certificado*/
+  #inst13642{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; 
+    padding: 0px 0px 0px 0px;
+  }
+  @media(max-width:700px){
+    #inst13642 .col-lg-6{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    width: 80%; 
+    padding: 0px 0px 0px 100px;
+    }
+  }
+  #inst13642 .col-lg-6 {
+    display:flex;
+    justify-content: end;
+    align-items: center;
+  }
+  #inst13642 .ccn-icon-reset{
+    display:flex;
+    justify-content: end;
+    align-items: center;
+  }
+  /* Fin del codigo de la galeria donde se muestra la insiginia digital el certificado*/
+  .divider {
+    padding: 100px 0px 40px 0px;
+  }
+  .pt90 {
+    padding-top: 40px;
+  }
+  
+  .overlay, .ccn_icon_2{
+    text-align: center !important;
+  }
+  
+  .float-left {
+    overflow: hidden;
+  }
+  
+  .ccn-external-stars i:nth-of-type(1n) {
+    display:none !important;
+    user-select: none;
+  }
+  .tc_footer li:nth-of-type(1n) {
+    display:none !important;
+    user-select: none;
+  }  
+  
+  .ccn-external-stars span {
+    display:none !important;
+    user-select: none;
+  }
+  */
+  .list-inline-item {
+    display:none !important;
+  }
+  
+  .cart_btnss_white {
+      background-color: transparent;
+      border: 3px solid #1C3C6C;
+      border-radius: 27px;
+      color:#1c3c6c;
+      display: block;
+      font-size: 15px;
+      font-family: "Open Sans";
+      line-height: 3.2;
+      margin-bottom: 23px;
+      height: 50px;
+      max-width: 234px;
+  }
+  .cart_btnss_white:hover {
+     background-color: transparent;
+     color:#1c3c6c;
+  }
+  .cart_btnss_white::after {
+     background-color: #1c3c6c;
+     color:#fff;
+  }
+  .btn-transparent {
+      background-color: transparent;
+      border-color: #1D3A6C;
+      color: #1D3A6C;
+      border-radius: 0;
+      -webkit-transition: all 0.3s ease;
+      -o-transition: all 0.3s ease;
+      transition: all 0.3s ease;
+  }
+  /* targetas de que es una insignia digital */
+  #inst13743 .col-lg-4 {
+    -ms-flex: 0 0 25%;
+      flex: 0 0 25%;
+      max-width: 25%;
+  }
+  @media (max-width: 912px){
+  #inst13743 .col-md-6 {
+      -ms-flex: 0 0 50%;
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+  }
+  @media (max-width: 700px){
+  #inst13743 .col-md-6 {
+      -ms-flex: 0 0 100%;
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+  }
+  .why_chose_us.style2 {
+      height: 600px;
+  }
+  /* fin del codigo targetas de que es una insignia digital */
+  
+  /* btn del formulario*/
+  #contact_form .btn.white {
+      background-color: #1D3A6C;
+      color: #fff;
+  }
+  #contact_form .btn.white:hover {
+      background-color: #fff !important;
+      color: #1D3A6C;
+  }
+  /* fin del codigo btn del formulario*/
+  /* Codigo de animaciones de scroll para las anclas*/
+    html{
+      scroll-behavior: smooth;
+          }
+    #inst13744{
+      scroll-margin-top:10ex;
+     }
+  /* Fin del codigo de animaciones de scroll para las anclas*/
+  /*Codigo para desaparecer el code de html de las pagina */
+  /* #inst13910, #inst14016, #inst14003 {
+    display: none;
+  } */
+  
+  /* Codigo para desaparecer el code de cientifico de datos*/
+  #inst14211 {
+    display: none;
+  }
+  /* Fin del codigo para desaparecer el code de cientifico de datos*/
+  /* Codigo para desaparecer el code de la landing de scrum master*/
+  #inst14332 {
+    display: none;
+  }
+  /* Fin del codigo para desaparecer el code de la landing de scrum master*/
+  /* Codigo para desaparecer el code de la landing de Selenium con Screenplay*/
+  #inst14414 {
+    display: none;
+  }
+  /* Fin del codigo para desaparecer el code de la landing de Selenium con Screenplay*/
+  /* Codigo para desaparecer el code de la landing de Fundamentos de Calidad de Software & ISTQB*/
+  #inst14460 {
+    display: none;
+  }
+  /* Fin del codigo para desaparecer el code de la landing de Fundamentos de Calidad de Software & ISTQB*/
+  /* Codigo para desaparecer el code de la landing de Certified Artificial Intelligence Specialist*/
+  #inst14395 {
+    display: none;
+  }
+  /* Fin del codigo para desaparecer el code de la landing de Certified Artificial Intelligence Specialist*/
+  /* Fin del codigo para desaparecer el code de html de las pagina */
+  
+  
+  
+  a[data-ccn="slide_btn_text1"]{
+       margin-top: 189px !important;
+  }
+  /* Inicia BACKGROUND TARJETA PAGO - CIENTÍFICO DE DATOS*/
+  #inst16995 .row {
+      background: #023d6c !important;
+  }
+  /* Termina BACKGROUND TARJETA PAGO - CIENTÍFICO DE DATOS*/
+  #inst14015 .owl-dots {
+      margin-top: -120px;
+  }
+  
+  /*INICIO RESPONSIVE RUTA CIENTIFICO DE DATOS - INICIO - INICIO*/
+      @media screen and (min-width: 1230.67px){
+          #inst13744 section .container .row:last-child .col-lg-6:last-child form .col-sm-12:last-child .ccn_recaptcha_container{
+              margin-bottom: 5vh;
+          }
+          #inst16950 .ccnBlockContent .checkbox {
+              position: absolute;
+              left: 51.5%;
+              top: -716%;
+          }
+          #inst16950 .ccnBlockContent .checkbox1 {
+              position: absolute;
+              left: 51.5%;
+              top: -638%;
+          }                
+      }
+      @media screen and (min-width: 990px) and (max-width: 1230.67px) {
+          #inst13744 section .container .row:last-child .col-lg-6:last-child form .col-sm-12:last-child .ccn_recaptcha_container {
+              margin-bottom: 5vh;
+          }
+          #inst16950 .ccnBlockContent .checkbox {
+              position: absolute;
+              left: 51.9%;
+              top: -767%;
+          }
+          #inst16950 .ccnBlockContent .checkbox1 {
+              position: absolute;
+              left: 51.9%;
+              top: -700%;
+          }
+      }
+  
+      @media screen and (min-width: 700px) and (max-width: 990px) {
+          #inst13744 section .container .row:last-child .col-lg-6:last-child form .col-sm-12:last-child .ccn_recaptcha_container {
+              margin-bottom: 6vh;
+          }
+          #inst16950 .ccnBlockContent .checkbox {
+              position: absolute;
+              left: 2%;
+              top: -767%;
+          }
+          #inst16950 .ccnBlockContent .checkbox1 {
+              position: absolute;
+              left: 2%;
+              top: -700%;
+          }
+      }
+  
+      @media screen and (min-width: 0px) and (max-width: 700px) {
+          #inst13744 section .container .row:last-child .col-lg-6:last-child form .col-sm-12:last-child .ccn_recaptcha_container {
+              margin-bottom: 6vh;
+          }
+          #inst16950 .ccnBlockContent .checkbox {
+              position: absolute;
+              left: 4%;
+              top: -767%;
+                margin-left: 1px;
+          }
+          #inst16950 .ccnBlockContent .checkbox1 {
+              position: absolute;
+              left: 4%;
+              top: -700%;
+              margin-left: 1px;
+          }
+      } 
+
+/* Inicia Código tarjeta de pago cient. de datos y metodos de pago*/
+@media screen and (min-width: 701px) and (max-width: 990px) {
+div#inst14015 {
+    margin-top: 750px!important;
+}
+
+.pago-1{
+margin: auto!important;
+width: 75%!important;
+margin-top: -300px!important}
+
+section.info h2 {
+    margin-top: -100px!important;
+    margin-bottom: 70px!important;
+}
+
+div#inst14015 {
+    position: relative!important;
+    top: -415px!important;
+}
+
+div#inst13741 {
+    position: relative!important;
+    top: -450px!important;
+}
+
+div#inst13744 {
+    position: relative!important;
+    top: -450px!important;
+    margin-bottom: -450px!important;
+}
+}
+/* Finaliza Código tarjeta de pago cient. de datos y metodos de pago*/
+  /*FIN RESPONSIVE RUTA CIENTIFICO DE DATOS - FIN - FIN*/
+  
+  /* inicia codigo home nuestros princ cursos */
+  @media(max-width:700px){
+  div#inst7022 {
+      margin-top: 45px !important;
+  }
+  }
+  /* Finaliza codigo home nuestros princ cursos */
+  
+  /* inicia codigo formate como cient. de datos */
+  @media(max-width:700px){
+  div#inst13642 h3 {
+      margin-top: 45px;
+  }
+  }
+  /* inicia codigo formate como cient. de datos */
+  
+  /*inicia codigo margenes tarj cursos del home*/
+  @media(max-width:700px){
+  .top_courses.ccnWithFoot:not(.list) {
+       margin: 15px;
+  }
+  }
+  /*Finaliza codigo margenes tarj cursos del home*/
+  
+  /*Inicia codigo JORGE Y GIOVANNI tamaño video de los cursos*/
+  @media(min-width:1200px){
+  .container-video{
+  display: flex;
+  width: 100%;
+  align-items: center;
+   justify-content: center;
+   padding: 2%;
+    }
+  .iframe-video{
+   width:  80%; 
+  height: 500px; 
+  }
+  }
+  @media screen and (min-width:992px) and (max-width:1200px){
+  .container-video{
+  display: flex;
+  width: 100%;
+  align-items: center;
+   justify-content: center;
+    }
+  .iframe-video{
+   width:  90%; 
+  height: 500px; 
+  }
+  }
+  @media screen and (min-width:768px) and (max-width:992px){
+  .container-video{
+  display: flex;
+  width: 100%;
+  align-items: center;
+   justify-content: center;
+    max-width:900px;
+    }
+  .iframe-video{
+   width:  95%; 
+  height: 400px; 
+  }
+  }
+  @media screen and (min-width:500px) and (max-width:768px){
+  .container-video{
+  display: flex;
+  width: 100%;
+  align-items: center;
+   justify-content: center;
+    max-width:900px;
+    }
+  .iframe-video{
+   width:  95%; 
+  height: 300px; 
+  }
+    .card-header {
+      margin-top: -30px;
+  }
+  }
+  @media(max-width:500px){
+    .iframe-video {
+     margin-top: -10px;
+       width:  100%; 
+       height: 200px; 
+  }
+   
+  #ccn-main-region{
+        padding-top:0px;
+  }
+  h1.h2.ccnMdlHeading{
+         font-size:18px; 
+  }
+  /*.card-header {
+      margin-top: -30px;
+  }*/
+    
+    .card-header-1{
+    margin-top: 15px;
+    }
+    
+  .card-header strong{
+  font-size: 18px;
+  }
+  } 
+  /*Finaliza codigo GIOVANNI tamaño video de los cursos*/
+   
+  /*Inicia Codigo para cambiar tamaño titulos de los cursos
+  en el Slider*/
+  @media (max-width: 768px) {
+    .inner_page_breadcrumb .breadcrumb_title {
+  white-space: normal !important;
+  font-size: 22px !important;
+  }
+  }
+  /*Finaliza Codigo para cambiar tamaño titulos de los cursos
+  en el Slider*/
+  
+  
+    /* Comienza codigo BORDER HEADER */
+  header {
+  border: none !important;
+  }
+  /* finaliza codigo BORDER HEADER */
+  @media(max-width:500px){
+    .iframe.iframe_video {
+      height: 50% !important;
+    }
+  }
+  
+/*div#inst16995 {
+margin-bottom: 400px;}*/
+
+  /*Inicia codigo Giovanni Insignias certificaciones */
+  .insignia{
+    position: absolute;
+    transform: translatey(-100%);
+    right:4%;
+    top: 7%;
+    width: 25%;}
+  
+  @media screen and (min-width: 768px) and (max-width: 991px) {
+    .courses.row.category-browse-62 .top_courses .thumb{
+    height: 380px !important;}
+    
+    .insignia{
+    position: absolute;
+    transform: translatey(-100%);
+    right:4%;
+    top: 6% !important;
+    width: 20%;}
+    
+    .top_courses .details .tc_content h5{
+    font-size: 20px;}
+  }
+  
+  @media screen and (min-width:500px) and (max-width:768px){
+   .insignia{
+    position: absolute;
+    transform: translatey(-100%);
+    right:4%;
+    top: 7% !important;
+    width: 20%;} 
+  }
+  
+  @media (max-width: 320px){
+    .insignia{
+    position: absolute;
+    transform: translatey(-100%);
+    right:4%;
+    top: 4% !important;
+    width: 20%;} 
+  }
+  
+  /*Finaliza codigo Giovanni Insignias certificaciones */
+
+/*Inicia codigo para eliminar el code de la landing de ventas de Selenium con POM*/
+div#inst17374 {
+ display: none;
+}
+
+/*Code para eliminar espacio entre el formulario y el footer*/
+#page-content {
+margin-bottom: -130px;
+}
+/*Finaliza el codigo para eliminar el code de la landin de ventas de Selenium con POM*/
+
+@media (max-width: 600px){
+.vp-center #player {
+    margin-top: -230px;
+}
+
+#inst13405 {
+    margin-top: -170px;
+  }}
+
+</style>
+<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="core/first" src="https://izyacademy.com/lib/requirejs.php/1687275243/core/first.js"></script><style type="text/css" id="ccnStyle"></style><script async="" src="https://script.hotjar.com/modules.87c64ece4c32532efcb6.js" charset="utf-8"></script><script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    config: ["Accessible.js", "Safe.js"],
+    errorSettings: { message: ["!"] },
+    skipStartupTypeset: true,
+    messageStyle: "none"
+});
+</script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="core_form/events" src="https://izyacademy.com/lib/requirejs.php/1687275243/core_form/events.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery" src="https://izyacademy.com/lib/javascript.php/1687275243/lib/jquery/jquery-3.6.1.min.js"></script></head>
+<body id="page-site-index" class="limitedwidth format-site course path-site chrome dir-ltr lang-es yui-skin-sam yui3-skin-sam izyacademy-com pagelayout-frontpage course-1 context-2 ccn_header_style_1 ccn_footer_style_9 ccn_blog_style_1 ccn_course_list_style_1 ccn_breadcrumb_style_0 role-standard ccn-is-front ccn_header_applies-front ccn_dashboard_header_sticky ccn_dashboard_header_gradient ccn_course_single_v1 ccnUG ccn_context_frontend mm-wrapper jsenabled ccn_hero ccn_slider_1 ccn_slider_7"><nav id="menu" class="stylehome1 mm-menu mm-menu_offcanvas" aria-hidden="true">
+          
+        <div class="mm-panels"><div id="mm-1" class="mm-panel mm-panel_opened"><div class="mm-navbar mm-navbar_sticky"><a class="mm-navbar__title"><span>Menu</span></a></div><ul class="mm-listview">
+            <li class="mm-listitem"><a class="ccn-menu-item mm-listitem__text" href="#">Rutas de formación</a><a class="mm-btn mm-btn_next mm-listitem__btn" href="#mm-2"><span class="mm-sronly">Open submenu</span></a></li><li class="mm-listitem"><a class="ccn-menu-item mm-listitem__text" href="#">Certificaciones</a><a class="mm-btn mm-btn_next mm-listitem__btn" href="#mm-3"><span class="mm-sronly">Open submenu</span></a></li><li class="mm-listitem"><a class="ccn-menu-item mm-listitem__text" href="#">Cursos</a><a class="mm-btn mm-btn_next mm-listitem__btn" href="#mm-4"><span class="mm-sronly">Open submenu</span></a></li><li class="mm-listitem"><a class="ccn-menu-item mm-listitem__text" href="#">Entrenamientos</a><a class="mm-btn mm-btn_next mm-listitem__btn" href="#mm-5"><span class="mm-sronly">Open submenu</span></a></li><li class="mm-listitem"><a class="ccn-menu-item mm-listitem__text" href="https://izyacademy.com/course/index.php?categoryid=74">Quiénes somos</a></li>
+              <li class="mm-listitem"><a href="https://izyacademy.com/login/index.php" class="mm-listitem__text"><span class="ccn-flaticon-user"></span> Iniciar sesión</a></li>
+              <li class="ccn_mob_menu_iconed mm-listitem"><a href="tel:(57) 3002550265" class="mm-listitem__text"><i class="flaticon-phone-call"></i> (57) 3002550265</a></li>
+              <li class="ccn_mob_menu_iconed mm-listitem"><a href="mailto:izyacademy@qvision.us" class="mm-listitem__text"><i class="flaticon-paper-plane"></i> izyacademy@qvision.us</a></li>
+              <li class="ccn_mob_menu_iconed mm-listitem"><a href="#" class="mm-listitem__text"><i class="flaticon-megaphone"></i> Become an Instructor</a></li>
+          </ul></div><div id="mm-2" class="mm-panel mm-hidden" aria-hidden="true"><div class="mm-navbar mm-navbar_sticky"><a class="mm-btn mm-btn_prev mm-navbar__btn" href="#mm-1" aria-haspopup="true" aria-owns="mm-1"><span class="mm-sronly">Close submenu</span></a><a class="mm-navbar__title" href="#mm-1" aria-hidden="true"><span>Rutas de formación</span></a></div><ul class="mm-listview"><li class="mm-listitem"><a class="ccn-menu-item mm-listitem__text" href="https://izyacademy.com/course/index.php?categoryid=54">Científico de Datos</a></li><li class="mm-listitem"><a class="ccn-menu-item mm-listitem__text" href="https://izyacademy.com/course/index.php?categoryid=62">Ruta de formación en .NET</a></li><li class="mm-listitem"><a class="ccn-menu-item mm-listitem__text" href="https://izyacademy.com/course/index.php?categoryid=77">Ruta de formación en Automatización</a></li></ul></div><div id="mm-3" class="mm-panel mm-hidden" aria-hidden="true"><div class="mm-navbar mm-navbar_sticky"><a class="mm-btn mm-btn_prev mm-navbar__btn" href="#mm-1" aria-haspopup="true" aria-owns="mm-1"><span class="mm-sronly">Close submenu</span></a><a class="mm-navbar__title" href="#mm-1" aria-hidden="true"><span>Certificaciones</span></a></div><ul class="mm-listview"><li class="mm-listitem"><a class="ccn-menu-item mm-listitem__text" href="https://izyacademy.com/course/index.php?categoryid=43">Transformación Digital</a></li><li class="mm-listitem"><a class="ccn-menu-item mm-listitem__text" href="https://izyacademy.com/course/index.php?categoryid=44">Next-Gen IT</a></li><li class="mm-listitem"><a class="ccn-menu-item mm-listitem__text" href="https://izyacademy.com/course/index.php?categoryid=42">Big Data</a></li><li class="mm-listitem"><a class="ccn-menu-item mm-listitem__text" href="https://izyacademy.com/course/index.php?categoryid=17">Certificaciones Ágiles</a></li><li class="mm-listitem"><a class="ccn-menu-item mm-listitem__text" href="https://izyacademy.com/course/index.php?categoryid=39">Certificaciones Scrum</a></li><li class="mm-listitem"><a class="ccn-menu-item mm-listitem__text" href="https://izyacademy.com/course/index.php?categoryid=22">Certificaciones DevOps</a></li><li class="mm-listitem"><a class="ccn-menu-item mm-listitem__text" href="https://izyacademy.com/course/index.php?categoryid=67">Cloud</a></li><li class="mm-listitem"><a class="ccn-menu-item mm-listitem__text" href="https://izyacademy.com/course/index.php?categoryid=68">SOA</a></li><li class="mm-listitem"><a class="ccn-menu-item mm-listitem__text" href="https://izyacademy.com/course/index.php?categoryid=38">Inteligencia Artificial</a></li></ul></div><div id="mm-4" class="mm-panel mm-hidden" aria-hidden="true"><div class="mm-navbar mm-navbar_sticky"><a class="mm-btn mm-btn_prev mm-navbar__btn" href="#mm-1" aria-haspopup="true" aria-owns="mm-1"><span class="mm-sronly">Close submenu</span></a><a class="mm-navbar__title" href="#mm-1" aria-hidden="true"><span>Cursos</span></a></div><ul class="mm-listview"><li class="mm-listitem"><a class="ccn-menu-item mm-listitem__text" href="https://izyacademy.com/course/index.php?categoryid=15">Desarrollo y Lógica de Programación</a></li><li class="mm-listitem"><a class="ccn-menu-item mm-listitem__text" href="https://izyacademy.com/course/index.php?categoryid=27">Automatización</a></li><li class="mm-listitem"><a class="ccn-menu-item mm-listitem__text" href="https://izyacademy.com/course/index.php?categoryid=16">Metodología de Pruebas y Calidad del Software</a></li><li class="mm-listitem"><a class="ccn-menu-item mm-listitem__text" href="https://izyacademy.com/course/index.php?categoryid=19">Pruebas Funcionales Manuales</a></li><li class="mm-listitem"><a class="ccn-menu-item mm-listitem__text" href="https://izyacademy.com/course/index.php?categoryid=21">Pruebas No Funcionales</a></li><li class="mm-listitem"><a class="ccn-menu-item mm-listitem__text" href="https://izyacademy.com/course/index.php?categoryid=54">Científico de Datos</a></li><li class="mm-listitem"><a class="ccn-menu-item mm-listitem__text" href="https://izyacademy.com/course/index.php?categoryid=23">Cloud</a></li><li class="mm-listitem"><a class="ccn-menu-item mm-listitem__text" href="https://izyacademy.com/course/index.php?categoryid=52">Ciberseguridad</a></li></ul></div><div id="mm-5" class="mm-panel mm-hidden" aria-hidden="true"><div class="mm-navbar mm-navbar_sticky"><a class="mm-btn mm-btn_prev mm-navbar__btn" href="#mm-1" aria-haspopup="true" aria-owns="mm-1"><span class="mm-sronly">Close submenu</span></a><a class="mm-navbar__title" href="#mm-1" aria-hidden="true"><span>Entrenamientos</span></a></div><ul class="mm-listview"><li class="mm-listitem"><a class="ccn-menu-item mm-listitem__text" href="https://izyacademy.com/course/index.php?categoryid=75">Automatización con Selenium y POM</a></li></ul></div></div></nav>
+    <div class="mm-page mm-slideout" id="mm-0"><div class="preloader
+       ccn_preloader_load 
+      
+      
+      
+      
+      
+    " style="display: none;"></div><div class="wrapper" id="page-content">
+      <header class="ccnHeader1 header-nav menu_style_home_one navbar-scrolltofixed stricky main-menu scroll-to-fixed-fixed" style="z-index: 1000; position: fixed; top: 0px; margin-left: 0px; width: 1366px; left: 0px;">
+        <div class="container-fluid">
+          <!-- Ace Responsive Menu -->
+          <nav>
+            <!-- Menu Toggle btn-->
+            <div class="menu-toggle" style="display: none;">
+              <img class="nav_logo_img img-fluid" src="https://izyacademy.com/pluginfile.php/1/theme_edumy/headerlogo1/1692394958/Logo%20izyacademy%20transparente2022.png" alt="¡Te enseña fácil!">
+              <button type="button" id="menu-btn">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+            </div>
+              <a href="https://izyacademy.com" class="navbar_brand float-left dn-smd">
+                <img class="logo1 img-fluid" src="https://izyacademy.com/pluginfile.php/1/theme_edumy/headerlogo1/1692394958/Logo%20izyacademy%20transparente2022.png" alt="¡Te enseña fácil!">
+                <img class="logo2 img-fluid" src="https://izyacademy.com/pluginfile.php/1/theme_edumy/headerlogo2/1692394958/izyacademy%20color.png" alt="¡Te enseña fácil!">
+                
+              </a>
+            <ul id="respMenu" class="ace-responsive-menu" data-menu-style="horizontal">
+              <li><a class="ccn-menu-item" href="#">Rutas de formación<span class="arrow "></span></a><ul class="sub-menu"><li class=""><a class="ccn-menu-item" href="https://izyacademy.com/course/index.php?categoryid=54">Científico de Datos</a></li><li class=""><a class="ccn-menu-item" href="https://izyacademy.com/course/index.php?categoryid=62">Ruta de formación en .NET</a></li><li class=""><a class="ccn-menu-item" href="https://izyacademy.com/course/index.php?categoryid=77">Ruta de formación en Automatización</a></li></ul></li><li><a class="ccn-menu-item" href="#">Certificaciones<span class="arrow "></span></a><ul class="sub-menu"><li class=""><a class="ccn-menu-item" href="https://izyacademy.com/course/index.php?categoryid=43">Transformación Digital</a></li><li class=""><a class="ccn-menu-item" href="https://izyacademy.com/course/index.php?categoryid=44">Next-Gen IT</a></li><li class=""><a class="ccn-menu-item" href="https://izyacademy.com/course/index.php?categoryid=42">Big Data</a></li><li class=""><a class="ccn-menu-item" href="https://izyacademy.com/course/index.php?categoryid=17">Certificaciones Ágiles</a></li><li class=""><a class="ccn-menu-item" href="https://izyacademy.com/course/index.php?categoryid=39">Certificaciones Scrum</a></li><li class=""><a class="ccn-menu-item" href="https://izyacademy.com/course/index.php?categoryid=22">Certificaciones DevOps</a></li><li class=""><a class="ccn-menu-item" href="https://izyacademy.com/course/index.php?categoryid=67">Cloud</a></li><li class=""><a class="ccn-menu-item" href="https://izyacademy.com/course/index.php?categoryid=68">SOA</a></li><li class=""><a class="ccn-menu-item" href="https://izyacademy.com/course/index.php?categoryid=38">Inteligencia Artificial</a></li></ul></li><li><a class="ccn-menu-item" href="#">Cursos<span class="arrow "></span></a><ul class="sub-menu"><li class=""><a class="ccn-menu-item" href="https://izyacademy.com/course/index.php?categoryid=15">Desarrollo y Lógica de Programación</a></li><li class=""><a class="ccn-menu-item" href="https://izyacademy.com/course/index.php?categoryid=27">Automatización</a></li><li class=""><a class="ccn-menu-item" href="https://izyacademy.com/course/index.php?categoryid=16">Metodología de Pruebas y Calidad del Software</a></li><li class=""><a class="ccn-menu-item" href="https://izyacademy.com/course/index.php?categoryid=19">Pruebas Funcionales Manuales</a></li><li class=""><a class="ccn-menu-item" href="https://izyacademy.com/course/index.php?categoryid=21">Pruebas No Funcionales</a></li><li class=""><a class="ccn-menu-item" href="https://izyacademy.com/course/index.php?categoryid=54">Científico de Datos</a></li><li class=""><a class="ccn-menu-item" href="https://izyacademy.com/course/index.php?categoryid=23">Cloud</a></li><li class=""><a class="ccn-menu-item" href="https://izyacademy.com/course/index.php?categoryid=52">Ciberseguridad</a></li></ul></li><li><a class="ccn-menu-item" href="#">Entrenamientos<span class="arrow "></span></a><ul class="sub-menu"><li class=""><a class="ccn-menu-item" href="https://izyacademy.com/course/index.php?categoryid=75">Automatización con Selenium y POM</a></li></ul></li><li class=""><a class="ccn-menu-item" href="https://izyacademy.com/course/index.php?categoryid=74">Quiénes somos</a></li>
+            </ul>
+            <ul class="sign_up_btn pull-right dn-smd mt20">
+                <li class="list-inline-item list_s">
+                  <a href="#" class="btn flaticon-user" data-toggle="modal" data-target="#exampleModalCenter"> <span class="dn-lg">Inicio de Sesión</span></a>
+                </li>
+                <li class="list-inline-item list_s">
+                  <div class="search_overlay">
+                    <a id="search-button-listener" class="mk-search-trigger mk-fullscreen-trigger" href="#">
+                      <span id="search-button"><i class="flaticon-magnifying-glass"></i></span>
+                    </a>
+                  </div>
+                </li>
+            </ul><!-- Button trigger modal -->
+          </nav>
+        </div>
+      </header><div style="display: none;"></div>
+      <div id="page" class="stylehome1 h0">
+        <div class="mobile-menu">
+          <div class="header stylehome1">
+              <div class="main_logo_home2">
+                <a class="mobileBrand" href="https://izyacademy.com">
+                      <img class="nav_logo_img img-fluid float-left mt20" src="https://izyacademy.com/pluginfile.php/1/theme_edumy/headerlogo_mobile/1692394958/Logo%20izyacademy%20transparente2022.png" alt="¡Te enseña fácil!">
+                  
+                </a>
+              </div>
+            <ul class="menu_bar_home2">
+                <li class="list-inline-item">
+                  <div class="search_overlay">
+                    <a id="search-button-listener2" class="mk-search-trigger mk-fullscreen-trigger" href="#">
+                      <div id="search-button2"><i class="flaticon-magnifying-glass"></i></div>
+                    </a>
+                  </div>
+                </li>
+              <li class="list-inline-item ccn_mob_menu_trigger "><a href="#menu"><span></span></a></li>
+            </ul>
+          </div>
+        </div><!-- /.mobile-menu -->
+        
+      </div>
+<div class="sign_up_modal modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+      </div>
+      <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home">
+          <div class="login_form">
+            <div class="heading">
+              <h3 class="text-center">Inicie sesión en su cuenta</h3>
+            </div>
+            
+<form class="loginform" id="login" method="post" action="https://izyacademy.com/login/index.php"><div class="form-group"><input type="text" name="username" placeholder="Nombre de Usuario" id="login_username" class="form-control" value="" autocomplete="username"></div><div class="form-group"><input type="password" name="password" id="login_password" placeholder="Contraseña" class="form-control" value="" autocomplete="current-password"></div>
+      <div class="form-group custom-control custom-checkbox">
+        <input type="checkbox" class="custom-control-input" name="rememberusername" id="rememberusername">
+        <label class="custom-control-label" for="rememberusername">Recordar nombre de usuario</label>
+        <a class="tdu btn-fpswd float-right" href="https://izyacademy.com/login/forgot_password.php">¿Olvidó su contraseña?</a>
+      </div><button type="submit" class="btn btn-log btn-block btn-thm2">Acceder</button><input type="hidden" name="logintoken" value="v46RnmIBW1tGs8072AR128U6kPPPPhLu"></form>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="search_overlay" id="ccnSearchOverlayWrap">
+  <div class="mk-fullscreen-search-overlay" id="mk-search-overlay">
+    <a href="#" class="mk-fullscreen-close" id="mk-fullscreen-close-button"><i class="fa fa-times"></i></a>
+    <div id="mk-fullscreen-search-wrapper">
+      <div id="ccn_mk-fullscreen-search-wrapper" style="top: 303px;">
+        <form class="ccn-mk-fullscreen-searchform" action="https://izyacademy.com/search/index.php"><fieldset><input id="searchform_search" name="q" class="ccn-mk-fullscreen-search-input" placeholder="Search courses..." type="text" size="15"><input type="hidden" name="context" value="2"><i class="flaticon-magnifying-glass fullscreen-search-icon"><input value="" type="submit" id="searchform_button"></i></fieldset></form>
+      </div>
+    </div>
+  </div>
+</div>
+  <div id="inst7025" class="block_cocoon_slider_1 block ccn_morphed" role="complementary" data-block="cocoon_slider_1" style="margin-bottom:-30px;">
+
+    <a href="#sb-11" class="sr-only sr-only-focusable">Salta [Cocoon] Slider style 1</a>
+
+
+
+
+
+  <div class="ccnBlockContent">
+  		<div class="home1-mainslider">
+		<div class="container-fluid p0">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="main-banner-wrapper">
+					    <div class="banner-style-one owl-theme owl-carousel banner-style-one--multiple owl-loaded" data-ccn-id="7025" data-ccn-caro-ap="1" data-ccn-caro-ap-to="12000" data-ccn-caro-ap-p="1" data-ccn-caro-s="12000" data-ccn-caro-l="1" data-ccn-caro-ll="1" data-ccn-caro-ao="fadeOut" data-ccn-caro-ai="fadeIn">
+                    
+                    
+            <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(-2702px, 0px, 0px); transition: all 0s ease 0s; width: 8106px;"><div class="owl-item cloned" style="width: 1351px; margin-right: 0px;"><div class="slide slide-one" data-ccn="file_slide1" data-ccn-img="bg-img-url" style="background-image: url(https://izyacademy.com/pluginfile.php/10700/block_cocoon_slider_1/slides/1/slide-paginaprincipal_optimized_optimized.01-%281%29.png); height: 95vh;width:100%;">
+					            <div class="container">
+					                <div class="home-content">
+					                    <div class="home-content-inner text-center"><h3 data-ccn="slide_title1" class="banner-title">Continúa tu formación con IzyAcademy</h3><p data-ccn="slide_subtitle1">Te ofrecemos una experiencia de aprendizaje basada en la formación por proyectos, apoyada en el uso de recursos interactivos para que tu aprendizaje sea efectivo.</p>
+					                    </div>
+					                </div>
+					            </div>
+					        </div></div><div class="owl-item cloned" style="width: 1351px; margin-right: 0px;"><div class="slide slide-one" data-ccn="file_slide2" data-ccn-img="bg-img-url" style="background-image: url(https://izyacademy.com/pluginfile.php/10700/block_cocoon_slider_1/slides/2/Pieza%20publicitaria%20escritorio.ff.png); height: 95vh;width:100%;">
+					            <div class="container">
+					                <div class="home-content">
+					                    <div class="home-content-inner text-center"><div class="btn-block"><a data-ccn="slide_btn_text2" target="_self" href="https://izyacademy.com/course/view.php?id=261" class="banner-btn">¿Listo para empezar?</a></div>
+					                    </div>
+					                </div>
+					            </div>
+					        </div></div><div class="owl-item active" style="width: 1351px; margin-right: 0px;"><div class="slide slide-one" data-ccn="file_slide1" data-ccn-img="bg-img-url" style="background-image: url(https://izyacademy.com/pluginfile.php/10700/block_cocoon_slider_1/slides/1/slide-paginaprincipal_optimized_optimized.01-%281%29.png); height: 95vh;width:100%;">
+					            <div class="container">
+					                <div class="home-content">
+					                    <div class="home-content-inner text-center"><h3 data-ccn="slide_title1" class="banner-title">Continúa tu formación con IzyAcademy</h3><p data-ccn="slide_subtitle1">Te ofrecemos una experiencia de aprendizaje basada en la formación por proyectos, apoyada en el uso de recursos interactivos para que tu aprendizaje sea efectivo.</p>
+					                    </div>
+					                </div>
+					            </div>
+					        </div></div><div class="owl-item" style="width: 1351px; margin-right: 0px;"><div class="slide slide-one" data-ccn="file_slide2" data-ccn-img="bg-img-url" style="background-image: url(https://izyacademy.com/pluginfile.php/10700/block_cocoon_slider_1/slides/2/Pieza%20publicitaria%20escritorio.ff.png); height: 95vh;width:100%;">
+					            <div class="container">
+					                <div class="home-content">
+					                    <div class="home-content-inner text-center"><div class="btn-block"><a data-ccn="slide_btn_text2" target="_self" href="https://izyacademy.com/course/view.php?id=261" class="banner-btn">¿Listo para empezar?</a></div>
+					                    </div>
+					                </div>
+					            </div>
+					        </div></div><div class="owl-item cloned" style="width: 1351px; margin-right: 0px;"><div class="slide slide-one" data-ccn="file_slide1" data-ccn-img="bg-img-url" style="background-image: url(https://izyacademy.com/pluginfile.php/10700/block_cocoon_slider_1/slides/1/slide-paginaprincipal_optimized_optimized.01-%281%29.png); height: 95vh;width:100%;">
+					            <div class="container">
+					                <div class="home-content">
+					                    <div class="home-content-inner text-center"><h3 data-ccn="slide_title1" class="banner-title">Continúa tu formación con IzyAcademy</h3><p data-ccn="slide_subtitle1">Te ofrecemos una experiencia de aprendizaje basada en la formación por proyectos, apoyada en el uso de recursos interactivos para que tu aprendizaje sea efectivo.</p>
+					                    </div>
+					                </div>
+					            </div>
+					        </div></div><div class="owl-item cloned" style="width: 1351px; margin-right: 0px;"><div class="slide slide-one" data-ccn="file_slide2" data-ccn-img="bg-img-url" style="background-image: url(https://izyacademy.com/pluginfile.php/10700/block_cocoon_slider_1/slides/2/Pieza%20publicitaria%20escritorio.ff.png); height: 95vh;width:100%;">
+					            <div class="container">
+					                <div class="home-content">
+					                    <div class="home-content-inner text-center"><div class="btn-block"><a data-ccn="slide_btn_text2" target="_self" href="https://izyacademy.com/course/view.php?id=261" class="banner-btn">¿Listo para empezar?</a></div>
+					                    </div>
+					                </div>
+					            </div>
+					        </div></div></div></div><div class="owl-controls"><div class="owl-nav"><div class="owl-prev" style="">prev</div><div class="owl-next" style="">next</div></div><div class="owl-dots" style="display: block;"><div class="owl-dot active"><span></span></div><div class="owl-dot"><span></span></div></div></div></div>
+            <div class="carousel-btn-block banner-carousel-btn">
+              <span class="carousel-btn left-btn">
+                <i class="flaticon-left-arrow left"></i>  <span class="left"></span>
+              </span>
+					        <span class="carousel-btn right-btn"><span class="right"></span> <i class="flaticon-right-arrow-1 right"></i>
+                  </span>
+					    </div><!-- /.carousel-btn-block banner-carousel-btn --></div><!-- /.main-banner-wrapper -->
+				</div>
+			</div>
+		</div>
+</div>
+
+
+  
+  
+  </div>
+
+    <span id="sb-11"></span>
+
+</div>
+    <div id="ccn-page-wrapper">
+      <div id="ccnSettingsMenuContainer"><div id="ccnSettingsMenuInner">
+      </div></div>
+      <div>
+    <a class="sr-only sr-only-focusable" href="#maincontent">Salta al contenido principal</a>
+</div><script src="https://izyacademy.com/lib/javascript.php/1687275243/lib/polyfills/polyfill.js"></script>
+<script src="https://izyacademy.com/theme/yui_combo.php?rollup/3.17.2/yui-moodlesimple-min.js"></script><script src="https://izyacademy.com/theme/jquery.php/core/jquery-3.6.1.min.js"></script>
+<script src="https://izyacademy.com/lib/javascript.php/1687275243/lib/javascript-static.js"></script>
+<script src="https://izyacademy.com/theme/javascript.php/edumy/1692394958/head"></script>
+<script>
+//<![CDATA[
+document.body.className += ' jsenabled';
+//]]>
+</script>
+
+
+<!-- Google Tag Manager (noscript) --><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MNCSKX8"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><!-- End Google Tag Manager (noscript) -->
+      <div>
+        <div class="container ccn_breadcrumb_widgets clearfix">
+
+
+
+    <div class="page-context-header"><div class="page-header-headings"></div></div>
+  <!--<div class="d-inline-flex align-items-center">-->
+  <div class="d-flex align-items-center">
+  </div>
+
+</div>
+            <div class="primary-navigation">
+                <nav class="moremenu navigation observed">
+                    <ul id="moremenu-650dabf3dc3a5-navbar-nav" role="menubar" class="nav more-nav navbar-nav">
+                                
+                                
+                                
+                                
+                                
+                        <li role="none" class="nav-item dropdown dropdownmoremenu" data-region="morebutton">
+                            <a class="dropdown-toggle nav-link " href="#" id="moremenu-dropdown-650dabf3dc3a5" role="menuitem" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" tabindex="-1">
+                                Más
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-left" data-region="moredropdown" aria-labelledby="moremenu-dropdown-650dabf3dc3a5" role="menu"><li class="dropdown nav-item" role="none" data-forceintomoremenu="false">
+                                    <a class="dropdown-toggle dropdown-item" id="drop-down-650dabf3dc227" role="menuitem" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" aria-controls="drop-down-menu-650dabf3dc227" tabindex="0" aria-current="true">
+                                        Rutas de formación
+                                    </a>
+                                    <div class="dropdown-menu" role="menu" id="drop-down-menu-650dabf3dc227" aria-labelledby="drop-down-650dabf3dc227">
+                                                    <a class="dropdown-item" role="menuitem" href="https://izyacademy.com/course/index.php?categoryid=54" tabindex="-1">Científico de Datos</a>
+                                                    <a class="dropdown-item" role="menuitem" href="https://izyacademy.com/course/index.php?categoryid=62" tabindex="-1">Ruta de formación en .NET</a>
+                                                    <a class="dropdown-item" role="menuitem" href="https://izyacademy.com/course/index.php?categoryid=77" tabindex="-1">Ruta de formación en Automatización</a>
+                                    </div>
+                                </li><li class="dropdown nav-item" role="none" data-forceintomoremenu="false">
+                                    <a class="dropdown-toggle dropdown-item" id="drop-down-650dabf3dc267" role="menuitem" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" aria-controls="drop-down-menu-650dabf3dc267" tabindex="-1">
+                                        Certificaciones
+                                    </a>
+                                    <div class="dropdown-menu" role="menu" id="drop-down-menu-650dabf3dc267" aria-labelledby="drop-down-650dabf3dc267">
+                                                    <a class="dropdown-item" role="menuitem" href="https://izyacademy.com/course/index.php?categoryid=43" tabindex="-1">Transformación Digital</a>
+                                                    <a class="dropdown-item" role="menuitem" href="https://izyacademy.com/course/index.php?categoryid=44" tabindex="-1">Next-Gen IT</a>
+                                                    <a class="dropdown-item" role="menuitem" href="https://izyacademy.com/course/index.php?categoryid=42" tabindex="-1">Big Data</a>
+                                                    <a class="dropdown-item" role="menuitem" href="https://izyacademy.com/course/index.php?categoryid=17" tabindex="-1">Certificaciones Ágiles</a>
+                                                    <a class="dropdown-item" role="menuitem" href="https://izyacademy.com/course/index.php?categoryid=39" tabindex="-1">Certificaciones Scrum</a>
+                                                    <a class="dropdown-item" role="menuitem" href="https://izyacademy.com/course/index.php?categoryid=22" tabindex="-1">Certificaciones DevOps</a>
+                                                    <a class="dropdown-item" role="menuitem" href="https://izyacademy.com/course/index.php?categoryid=67" tabindex="-1">Cloud</a>
+                                                    <a class="dropdown-item" role="menuitem" href="https://izyacademy.com/course/index.php?categoryid=68" tabindex="-1">SOA</a>
+                                                    <a class="dropdown-item" role="menuitem" href="https://izyacademy.com/course/index.php?categoryid=38" tabindex="-1">Inteligencia Artificial</a>
+                                    </div>
+                                </li><li class="dropdown nav-item" role="none" data-forceintomoremenu="false">
+                                    <a class="dropdown-toggle dropdown-item" id="drop-down-650dabf3dc2a1" role="menuitem" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" aria-controls="drop-down-menu-650dabf3dc2a1" tabindex="-1">
+                                        Cursos
+                                    </a>
+                                    <div class="dropdown-menu" role="menu" id="drop-down-menu-650dabf3dc2a1" aria-labelledby="drop-down-650dabf3dc2a1">
+                                                    <a class="dropdown-item" role="menuitem" href="https://izyacademy.com/course/index.php?categoryid=15" tabindex="-1">Desarrollo y Lógica de Programación</a>
+                                                    <a class="dropdown-item" role="menuitem" href="https://izyacademy.com/course/index.php?categoryid=27" tabindex="-1">Automatización</a>
+                                                    <a class="dropdown-item" role="menuitem" href="https://izyacademy.com/course/index.php?categoryid=16" tabindex="-1">Metodología de Pruebas y Calidad del Software</a>
+                                                    <a class="dropdown-item" role="menuitem" href="https://izyacademy.com/course/index.php?categoryid=19" tabindex="-1">Pruebas Funcionales Manuales</a>
+                                                    <a class="dropdown-item" role="menuitem" href="https://izyacademy.com/course/index.php?categoryid=21" tabindex="-1">Pruebas No Funcionales</a>
+                                                    <a class="dropdown-item" role="menuitem" href="https://izyacademy.com/course/index.php?categoryid=54" tabindex="-1">Científico de Datos</a>
+                                                    <a class="dropdown-item" role="menuitem" href="https://izyacademy.com/course/index.php?categoryid=23" tabindex="-1">Cloud</a>
+                                                    <a class="dropdown-item" role="menuitem" href="https://izyacademy.com/course/index.php?categoryid=52" tabindex="-1">Ciberseguridad</a>
+                                    </div>
+                                </li><li class="dropdown nav-item" role="none" data-forceintomoremenu="false">
+                                    <a class="dropdown-toggle dropdown-item" id="drop-down-650dabf3dc2ce" role="menuitem" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" aria-controls="drop-down-menu-650dabf3dc2ce" tabindex="-1">
+                                        Entrenamientos
+                                    </a>
+                                    <div class="dropdown-menu" role="menu" id="drop-down-menu-650dabf3dc2ce" aria-labelledby="drop-down-650dabf3dc2ce">
+                                                    <a class="dropdown-item" role="menuitem" href="https://izyacademy.com/course/index.php?categoryid=75" tabindex="-1">Automatización con Selenium y POM</a>
+                                    </div>
+                                </li><li data-key="" class="nav-item" role="none" data-forceintomoremenu="false">
+                                            <a role="menuitem" class="dropdown-item" href="https://izyacademy.com/course/index.php?categoryid=74" tabindex="-1">
+                                                Quiénes somos
+                                            </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        
+        <aside id="block-region-fullwidth-top" class="block-region" data-blockregion="fullwidth-top" data-droptarget="1"><div id="inst7022" class="
+   
+   block_cocoon_featuredcourses block 
+   
+" role="complementary" data-block="cocoon_featuredcourses" style="margin-top:-115px;">
+
+    <a href="#sb-2" class="sr-only sr-only-focusable">Salta [Cocoon] Featured courses</a>
+
+
+
+
+
+  <div class="ccnBlockContent">
+  
+        <section id="our-top-courses" class="our-courses">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6 offset-lg-3">
+                <div class="main-title text-center"><h3 class="mt0" data-ccn="title">Explora Nuestros Principales Cursos</h3><p data-ccn="subtitle"></p>
+                </div>
+              </div>
+            </div>
+          <div class="row">
+            <div class="col-xs-12">
+              <div class="row">
+
+            <div class="col-md-6 col-lg-4 col-xl-3">
+							<div class="top_courses ccnWithFoot">
+                  <a href="https://izyacademy.com/course/view.php?id=232">
+                    <div class="thumb">
+                      <img class="img-whp" src="https://izyacademy.com/pluginfile.php/15240/course/overviewfiles/image-%282%29_optimized.png" alt="Fundamentos de Desarrollo Web con Angular">
+                      <div class="overlay"> <div class="tag" data-ccn="hover_accent">Ver curso</div><span class="tc_preview_course" data-ccn="hover_text">Detalles del curso</span>
+                      </div>
+                    </div>
+                  </a>
+								<div class="details">
+									<div class="tc_content"><p>Updated 18/09/23</p><a href="https://izyacademy.com/course/view.php?id=232"><h5>Fundamentos de Desarrollo Web con Angular</h5></a><p></p><p></p>
+<p style="text-align:justify;"></p>
+<div>
+    <p xml:lang="es-es" lang="es-es" style="text-align:justify;margin-bottom:35px;"><span xml:lang="es-es" lang="es-es">El curso de desarrollo web con angular es una gran opción para quien quiera empezar una carrera como desarrollador front end ya que su estructura es perfecta para iniciar desde cero o afianzar sus bases de desarrollo.&nbsp;</span>        <span>&nbsp;</span></p><p class="card-text" style="font-size:18px;color:#1d3b6c;text-align:center;"><br></p><p class="card-text" style="font-size:18px;color:#1d3b6c;text-align:center;"><strong><br></strong></p><p class="card-text" style="font-size:18px;color:#1d3b6c;text-align:center;"><strong>Precio $13 USD <span style="color:rgb(255,0,0);">$39 USD</span></strong><br></p>
+    <center><a href="https://checkout.wompi.co/l/48t3m6" class="btn btn-primary" target="_blank" rel="noreferrer noopener"> Comprar Ahora </a></center>
+    <p></p>
+</div><p></p><div class="ccn-external-stars"><li class="list-inline-item"><i class="fa fa-star"></i></li><li class="list-inline-item"><i class="fa fa-star"></i></li><li class="list-inline-item"><i class="fa fa-star"></i></li><li class="list-inline-item"><i class="fa fa-star"></i></li><li class="list-inline-item"><i class="fa fa-star"></i></li><li class="list-inline-item"><span>(1)</span></li></div>
+									</div>
+                </div>
+                  <div class="tc_footer">
+                    <ul class="tc_meta float-left"><li class="list-inline-item"><i class="flaticon-profile"></i></li><li class="list-inline-item">24</li><li class="list-inline-item"><i class="flaticon-comment"></i></li><li class="list-inline-item">9</li></ul>
+									</div>
+							</div>
+						</div>
+
+            <div class="col-md-6 col-lg-4 col-xl-3">
+							<div class="top_courses ccnWithFoot">
+                  <a href="https://izyacademy.com/course/view.php?id=217">
+                    <div class="thumb">
+                      <img class="img-whp" src="https://izyacademy.com/pluginfile.php/12692/course/overviewfiles/fund-istqb-v2_optimized.jpg" alt="Fundamentos de Calidad de Software &amp; ISTQB">
+                      <div class="overlay"> <div class="tag" data-ccn="hover_accent">Ver curso</div><span class="tc_preview_course" data-ccn="hover_text">Detalles del curso</span>
+                      </div>
+                    </div>
+                  </a>
+								<div class="details">
+									<div class="tc_content"><p>Updated 18/09/23</p><a href="https://izyacademy.com/course/view.php?id=217"><h5>Fundamentos de Calidad de Software &amp; ISTQB</h5></a><p></p><p style="text-align:justify;margin-bottom:35px;">Asegurar la calidad de un producto de software es importante para poder satisfacer un cliente, por eso te invitamos a desarrollar habilidades en fundamentos de calidad de software y ser mas competitivo en el mercado laboral de la tecnología.&nbsp;</p>
+<p class="card-text" style="font-size:18px;color:#1d3b6c;text-align:center;"><strong><br></strong></p><p class="card-text" style="font-size:18px;color:#1d3b6c;text-align:center;"><br></p><p class="card-text" style="font-size:18px;color:#1d3b6c;text-align:center;"><strong>Precio $13 USD&nbsp;<span style="text-decoration:line-through;color:#ff0000;">$39 USD</span></strong></p>
+<center><a href="https://checkout.wompi.co/l/yPzycE" class="btn btn-primary" target="_blank" rel="noreferrer noopener"> Comprar Ahora </a></center>
+<p></p><p></p><div class="ccn-external-stars"><li class="list-inline-item"><i class="fa fa-star"></i></li><li class="list-inline-item"><i class="fa fa-star"></i></li><li class="list-inline-item"><i class="fa fa-star"></i></li><li class="list-inline-item"><i class="fa fa-star"></i></li><li class="list-inline-item"><i class="fa fa-star-half-o"></i></li><li class="list-inline-item"><span>(16)</span></li></div>
+									</div>
+                </div>
+                  <div class="tc_footer">
+                    <ul class="tc_meta float-left"><li class="list-inline-item"><i class="flaticon-profile"></i></li><li class="list-inline-item">68</li><li class="list-inline-item"><i class="flaticon-comment"></i></li><li class="list-inline-item">11</li></ul>
+									</div>
+							</div>
+						</div>
+
+            <div class="col-md-6 col-lg-4 col-xl-3">
+							<div class="top_courses ccnWithFoot">
+                  <a href="https://izyacademy.com/course/view.php?id=203">
+                    <div class="thumb">
+                      <img class="img-whp" src="https://izyacademy.com/pluginfile.php/12288/course/overviewfiles/imagen1_optimized.png" alt="Pruebas Manuales de Servicios Web con Postman">
+                      <div class="overlay"> <div class="tag" data-ccn="hover_accent">Ver curso</div><span class="tc_preview_course" data-ccn="hover_text">Detalles del curso</span>
+                      </div>
+                    </div>
+                  </a>
+								<div class="details">
+									<div class="tc_content"><p>Updated 18/09/23</p><a href="https://izyacademy.com/course/view.php?id=203"><h5>Pruebas Manuales de Servicios Web con Postman</h5></a><p></p><p dir="ltr" style="text-align:left;"></p>
+<p align="justify"><span lang="es" xml:lang="es">Como parte de la creciente tendencia de las compañías a migrar tanto sus aplicaciones como infraestructura a la nube y el cambio de arquitecturas monolíticas a microservicios, se hace necesario tener un entendimiento más detallado de la forma en la que nos comunicamos con estas aplicaciones modernas normalmente alojadas en la nube.</span></p><p align="justify"><span style="text-align:left;"><br></span></p>
+<p></p>
+<p></p>
+<p></p>
+<p class="card-text" style="font-size:18px;color:#1d3b6c;text-align:center;"><strong>Precio $13 USD&nbsp;<span style="text-decoration:line-through;color:#ff0000;">$39 USD</span></strong></p>
+<center><a href="https://checkout.wompi.co/l/iEhEVY" class="btn btn-primary" target="_blank" rel="noreferrer noopener"> Comprar Ahora </a></center>
+<p></p><p></p><div class="ccn-external-stars"><li class="list-inline-item"><i class="fa fa-star"></i></li><li class="list-inline-item"><i class="fa fa-star"></i></li><li class="list-inline-item"><i class="fa fa-star"></i></li><li class="list-inline-item"><i class="fa fa-star"></i></li><li class="list-inline-item"><i class="fa fa-star"></i></li><li class="list-inline-item"><span>(4)</span></li></div>
+									</div>
+                </div>
+                  <div class="tc_footer">
+                    <ul class="tc_meta float-left"><li class="list-inline-item"><i class="flaticon-profile"></i></li><li class="list-inline-item">8</li><li class="list-inline-item"><i class="flaticon-comment"></i></li><li class="list-inline-item">10</li></ul>
+									</div>
+							</div>
+						</div>
+
+            <div class="col-md-6 col-lg-4 col-xl-3">
+							<div class="top_courses ccnWithFoot">
+                  <a href="https://izyacademy.com/course/view.php?id=237">
+                    <div class="thumb">
+                      <img class="img-whp" src="https://izyacademy.com/pluginfile.php/16130/course/overviewfiles/procesamiento%20de%20datos.png" alt="Procesamiento de Datos con Python">
+                      <div class="overlay"> <div class="tag" data-ccn="hover_accent">Ver curso</div><span class="tc_preview_course" data-ccn="hover_text">Detalles del curso</span>
+                      </div>
+                    </div>
+                  </a>
+								<div class="details">
+									<div class="tc_content"><p>Updated 18/09/23</p><a href="https://izyacademy.com/course/view.php?id=237"><h5>Procesamiento de Datos con Python</h5></a><p><img class="orden-cientifico" src="https://i.pinimg.com/originals/18/6e/35/186e35bddb24da0a10145c86babaf704.png" alt="186e35bddb24da0a10145c86babaf704.png">
+</p><p align="justify">Una vez apropiados los conceptos básicos de Python, es momento de entrar en el mundo del procesamiento de datos, usando librerías y métodos. Desarrollar habilidades en el camino a ser científico de datos.<br></p>
+<p class="card-text" style="font-size:18px;color:#1d3b6c;text-align:center;"></p><br><br><br><br>
+<p class="card-text" style="font-size:18px;color:#1d3b6c;text-align:center;"><strong>Precio $14.99 USD <del style="color:#ff0000;">$49 USD</del></strong></p>
+<center><a href="https://checkout.wompi.co/l/uhOBPF" class="btn btn-primary" target="_blank" rel="noreferrer noopener"> Comprar Ahora </a></center>
+<p></p><p></p><div class="ccn-external-stars"><li class="list-inline-item"><i class="fa fa-star"></i></li><li class="list-inline-item"><i class="fa fa-star"></i></li><li class="list-inline-item"><i class="fa fa-star"></i></li><li class="list-inline-item"><i class="fa fa-star"></i></li><li class="list-inline-item"><i class="fa fa-star-half-o"></i></li><li class="list-inline-item"><span>(3)</span></li></div>
+									</div>
+                </div>
+                  <div class="tc_footer">
+                    <ul class="tc_meta float-left"><li class="list-inline-item"><i class="flaticon-profile"></i></li><li class="list-inline-item">14</li><li class="list-inline-item"><i class="flaticon-comment"></i></li><li class="list-inline-item">10</li></ul>
+									</div>
+							</div>
+						</div></div></div>
+        <div class="col-lg-6 offset-lg-3">
+					<div class="courses_all_btn text-center" data-ccn-btn="">
+						<a class="btn btn-transparent" data-ccn="button_text" href="https://izyacademy.com/course">Ver todos los cursos</a>
+					</div>
+				</div>
+ 			</div>
+		</div>
+	</section>
+
+
+  
+  
+  </div>
+
+    <span id="sb-2"></span>
+
+</div><div id="inst13611" class="
+   
+   block_cocoon_featuredcourses block 
+   
+" role="complementary" data-block="cocoon_featuredcourses" style="margin-top:-20px;">
+
+    <a href="#sb-3" class="sr-only sr-only-focusable">Salta [Cocoon] Featured courses</a>
+
+
+
+
+
+  <div class="ccnBlockContent">
+  
+        <section id="our-top-courses" class="our-courses">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6 offset-lg-3">
+                <div class="main-title text-center"><h3 class="mt0" data-ccn="title">Explora Nuestras Principales Certificaciones</h3><p data-ccn="subtitle">Una certificación demuestra un compromiso con los estándares superiores de la industria y el aprendizaje continuo.</p>
+                </div>
+              </div>
+            </div>
+          <div class="row">
+            <div class="col-xs-12">
+              <div class="row">
+
+            <div class="col-md-6 col-lg-4 col-xl-3">
+							<div class="top_courses ccnWithFoot">
+                  <a href="https://izyacademy.com/course/view.php?id=157">
+                    <div class="thumb">
+                      <img class="img-whp" src="https://izyacademy.com/pluginfile.php/7050/course/overviewfiles/img-2323235.jpg" alt="Kanban Essentials Professional Certificate KEPC™">
+                      <div class="overlay"> <div class="tag" data-ccn="hover_accent">Ver certificación</div><span class="tc_preview_course" data-ccn="hover_text">Detalles de la certificación</span>
+                      </div>
+                    </div>
+                  </a>
+								<div class="details">
+									<div class="tc_content"><p>Updated 18/09/23</p><a href="https://izyacademy.com/course/view.php?id=157"><h5>Kanban Essentials Professional Certificate KEPC™</h5></a><p><img class="insignia" src="https://i.pinimg.com/originals/b8/c6/64/b8c6642abdf4ef4a68f596b875fd7c93.png" alt="b8c6642abdf4ef4a68f596b875fd7c93.png">
+
+</p><p></p>
+<p align="justify"></p>
+<p style="text-align:justify;">Actualmente, las empresas utilizan Kanban porque es una forma eficaz de gestionar el flujo de trabajo y facilita el logro de los objetivos en función de los requisitos del cliente. Es por eso, que la certificación en Kanban brinda la oportunidad de maximizar
+    la eficiencia y la mejora continua.</p>
+<p style="text-align:justify;"></p><br>
+<p style="text-align:justify;"></p>
+<br><br>
+<p class="card-text" style="font-size:18px;color:#1d3b6c;text-align:center;"><strong>Precio 99 USD&nbsp;</strong><span style="color:#ff0000;text-decoration:line-through;font-weight:bold;">$149 USD</span></p>
+<center><a href="https://checkout.wompi.co/l/vyrnvI" class="btn btn-primary" target="_blank" rel="noreferrer noopener"> Comprar Ahora </a></center>
+<p></p><p></p><div class="ccn-external-stars"><li class="list-inline-item"><i class="fa fa-star-o"></i></li><li class="list-inline-item"><i class="fa fa-star-o"></i></li><li class="list-inline-item"><i class="fa fa-star-o"></i></li><li class="list-inline-item"><i class="fa fa-star-o"></i></li><li class="list-inline-item"><i class="fa fa-star-o"></i></li><li class="list-inline-item"><span>(0)</span></li></div>
+									</div>
+                </div>
+                  <div class="tc_footer">
+                    <ul class="tc_meta float-left"><li class="list-inline-item"><i class="flaticon-profile"></i></li><li class="list-inline-item">4</li><li class="list-inline-item"><i class="flaticon-comment"></i></li><li class="list-inline-item">11</li></ul>
+									</div>
+							</div>
+						</div>
+
+            <div class="col-md-6 col-lg-4 col-xl-3">
+							<div class="top_courses ccnWithFoot">
+                  <a href="https://izyacademy.com/course/view.php?id=299">
+                    <div class="thumb">
+                      <img class="img-whp" src="https://izyacademy.com/pluginfile.php/19637/course/overviewfiles/saas.png" alt="Certified Cloud Technology Professional">
+                      <div class="overlay"> <div class="tag" data-ccn="hover_accent">Ver certificación</div><span class="tc_preview_course" data-ccn="hover_text">Detalles de la certificación</span>
+                      </div>
+                    </div>
+                  </a>
+								<div class="details">
+									<div class="tc_content"><p>Updated 5/09/23</p><a href="https://izyacademy.com/course/view.php?id=299"><h5>Certified Cloud Technology Professional</h5></a><p><img class="insignia" src="https://i.pinimg.com/originals/13/e1/a4/13e1a45169af037dcfa707d58ffa3538.png" alt="13e1a45169af037dcfa707d58ffa3538.png">
+</p><p dir="ltr" style="text-align:justify;">La tecnología avanza a un ritmo rápido y consigo la cantidad de información se vuelve más grande, es por esto que Cloud se ha convertido en un método revolucionario para almacenar grandes cantidades de información de manera rápida, accesible y segura.&nbsp;<br>El
+    material de estudio consta de 3 módulos en los que tiene una visión general del uso de Cloud.<br></p>
+<p class="card-text" style="font-size:18px;color:#1d3b6c;text-align:center;margin-top:30px;"><strong>Precio $234 USD</strong></p>
+<center><a href="https://checkout.wompi.co/l/lP5unN" class="btn btn-primary" target="_blank" rel="noreferrer noopener"> Comprar Ahora </a></center><p></p><div class="ccn-external-stars"><li class="list-inline-item"><i class="fa fa-star-o"></i></li><li class="list-inline-item"><i class="fa fa-star-o"></i></li><li class="list-inline-item"><i class="fa fa-star-o"></i></li><li class="list-inline-item"><i class="fa fa-star-o"></i></li><li class="list-inline-item"><i class="fa fa-star-o"></i></li><li class="list-inline-item"><span>(0)</span></li></div>
+									</div>
+                </div>
+                  <div class="tc_footer">
+                    <ul class="tc_meta float-left"><li class="list-inline-item"><i class="flaticon-profile"></i></li><li class="list-inline-item">0</li><li class="list-inline-item"><i class="flaticon-comment"></i></li><li class="list-inline-item">1</li></ul>
+									</div>
+							</div>
+						</div>
+
+            <div class="col-md-6 col-lg-4 col-xl-3">
+							<div class="top_courses ccnWithFoot">
+                  <a href="https://izyacademy.com/course/view.php?id=277">
+                    <div class="thumb">
+                      <img class="img-whp" src="https://izyacademy.com/pluginfile.php/19580/course/overviewfiles/empleado-invalido-discapacitado-sentado-inmovilizado-silla-ruedas-trabajando-bloc-notas-computadora-al-mismo-tiempo-analizando-graficos-financieros-pc-que-muestra-datos-proyectos-relacionados-economia%20%281%29.jpg" alt="Digital Transformation Data Scientist ">
+                      <div class="overlay"> <div class="tag" data-ccn="hover_accent">Ver certificación</div><span class="tc_preview_course" data-ccn="hover_text">Detalles de la certificación</span>
+                      </div>
+                    </div>
+                  </a>
+								<div class="details">
+									<div class="tc_content"><p>Updated 5/09/23</p><a href="https://izyacademy.com/course/view.php?id=277"><h5>Digital Transformation Data Scientist </h5></a><p><img class="insignia" src="https://i.pinimg.com/originals/c1/a6/2a/c1a62a56fe64b10da55eb9affc29fda0.png" alt="c1a62a56fe64b10da55eb9affc29fda0.png">
+
+</p><p dir="ltr" style="text-align:justify;">Los científicos de datos cuentan con la aplicación práctica de las técnicas y algoritmos contemporáneos de la ciencia de datos. Esta certificación es una buena oportunidad para adentrarse en las diferentes técnicas y prácticas de analizar, procesar y
+    modelar la información. El material de estudio consta de 3 módulos en los que profundizarás en la ciencia de datos.</p>
+<p class="card-text" style="font-size:18px;color:#1d3b6c;text-align:center;margin-top:30px;"><strong>Precio $284 USD</strong></p>
+<center><a href="https://checkout.wompi.co/l/nIux39" class="btn btn-primary" target="_blank" rel="noreferrer noopener"> Comprar Ahora </a></center><p></p><div class="ccn-external-stars"><li class="list-inline-item"><i class="fa fa-star-o"></i></li><li class="list-inline-item"><i class="fa fa-star-o"></i></li><li class="list-inline-item"><i class="fa fa-star-o"></i></li><li class="list-inline-item"><i class="fa fa-star-o"></i></li><li class="list-inline-item"><i class="fa fa-star-o"></i></li><li class="list-inline-item"><span>(0)</span></li></div>
+									</div>
+                </div>
+                  <div class="tc_footer">
+                    <ul class="tc_meta float-left"><li class="list-inline-item"><i class="flaticon-profile"></i></li><li class="list-inline-item">0</li><li class="list-inline-item"><i class="flaticon-comment"></i></li><li class="list-inline-item">1</li></ul>
+									</div>
+							</div>
+						</div>
+
+            <div class="col-md-6 col-lg-4 col-xl-3">
+							<div class="top_courses ccnWithFoot">
+                  <a href="https://izyacademy.com/course/view.php?id=150">
+                    <div class="thumb">
+                      <img class="img-whp" src="https://izyacademy.com/pluginfile.php/6022/course/overviewfiles/img-568759.jpg" alt="Scrum Master Professional Certificate">
+                      <div class="overlay"> <div class="tag" data-ccn="hover_accent">Ver certificación</div><span class="tc_preview_course" data-ccn="hover_text">Detalles de la certificación</span>
+                      </div>
+                    </div>
+                  </a>
+								<div class="details">
+									<div class="tc_content"><p>Updated 18/09/23</p><a href="https://izyacademy.com/course/view.php?id=150"><h5>Scrum Master Professional Certificate</h5></a><p><img class="insignia" src="https://i.pinimg.com/originals/eb/31/05/eb31054a527593e8e87d883c152c0eb8.png" alt="eb31054a527593e8e87d883c152c0eb8.png">
+</p><p></p>
+<h3></h3>
+<p align="justify" style="margin-bottom:25px;"><span style="text-align:left;"></span>Certificarse como&nbsp;<span style="text-align:left;"></span><span style="text-align:left;">Scrum Master&nbsp;</span><span style="text-align:left;">es una oportunidad para fortalecer el perfil laboral de un profesional que participa en un equipo de trabajo usando el framework Scrum. Quien trabaja en este rol&nbsp;</span>
+    <span style="text-align:left;">es un líder de equipo altamente experimentado que ayuda a los equipos Scrum a alcanzar sus objetivos, procesos de desarrollo de software más ágiles y metas de la compañía.</span>
+</p>
+<div class="price-button">
+    <p class="card-text" style="font-size:18px;color:#1d3b6c;text-align:center;"><strong>Precio $99 USD <del style="color:#ff0000;">$149 USD</del></strong></p>
+    <center><a href="https://checkout.wompi.co/l/zYcC1R" class="btn btn-primary" target="_blank" rel="noreferrer noopener"> Comprar Ahora </a></center>
+    <p></p>
+</div><p></p><div class="ccn-external-stars"><li class="list-inline-item"><i class="fa fa-star"></i></li><li class="list-inline-item"><i class="fa fa-star"></i></li><li class="list-inline-item"><i class="fa fa-star"></i></li><li class="list-inline-item"><i class="fa fa-star"></i></li><li class="list-inline-item"><i class="fa fa-star-o"></i></li><li class="list-inline-item"><span>(11)</span></li></div>
+									</div>
+                </div>
+                  <div class="tc_footer">
+                    <ul class="tc_meta float-left"><li class="list-inline-item"><i class="flaticon-profile"></i></li><li class="list-inline-item">110</li><li class="list-inline-item"><i class="flaticon-comment"></i></li><li class="list-inline-item">8</li></ul>
+									</div>
+							</div>
+						</div>
+ 			</div>
+		</div>
+	</div></div></section>
+
+
+  
+  
+  </div>
+
+    <span id="sb-3"></span>
+
+</div><div id="inst7021" class="
+   
+   block_cocoon_parallax block 
+   
+" role="complementary" data-block="cocoon_parallax" style="">
+
+    <a href="#sb-4" class="sr-only sr-only-focusable">Salta [Cocoon] Parallax</a>
+
+
+
+
+
+  <div class="ccnBlockContent">
+  
+
+
+        <section data-ccn="image" data-ccn-img="bg-img-url" class="divider parallax bg-img2" data-stellar-background-ratio="0.3" style="background-image:url(https://izyacademy.com/pluginfile.php/10696/block_cocoon_parallax/content/Habilidades-01.png);background-size:cover;">
+ 		<div class="container">
+ 			<div class="row">
+ 				<div class="col-lg-8 offset-lg-2 text-center">
+ 					<div class="divider-one">
+ 						<p class="color-white" data-ccn="subtitle">¡ANÍMATE E INICIA TU APRENDIZAJE ONLINE!</p>
+ 						<h1 class="color-white text-uppercase" data-ccn="title">Fortalece tus habilidades con nuestros cursos en línea</h1>
+ 						<a data-ccn="button_text" class="btn btn-transparent divider-btn" href="https://izyacademy.com/course/index.php">Empieza Ahora</a>
+ 					</div>
+ 				</div>
+ 			</div>
+ 		</div>
+ 	</section>
+
+  
+  
+  </div>
+
+    <span id="sb-4"></span>
+
+</div><div id="inst7020" class="
+   
+   block_cocoon_course_categories block 
+   
+" role="navigation" data-block="cocoon_course_categories" style="margin-top:40px;">
+
+    <a href="#sb-5" class="sr-only sr-only-focusable">Salta [Cocoon] Course categories</a>
+
+
+
+
+
+  <div class="ccnBlockContent">
+  
+        <style type="text/css">
+        .img_hvr_box:before {
+          background-color: rgba(10,10,10,.5);
+        }
+        .img_hvr_box:hover:before {
+          background-color: rgb(29, 59, 108);
+        }
+        </style>
+        <section id="our-courses" class="our-courses pt90 pt650-992" data-ccn-c="color_bg" data-ccn-co="bg" style="background-color:rgb(255,255,255);">
+      		<div class="container">
+      			<div class="row">
+      				<div class="col-lg-12">
+      					
+      				</div>
+      			</div>
+      		</div>
+      		<div class="container">
+      			<div class="row">
+      				<div class="col-lg-6 offset-lg-3">
+      					<div class="main-title text-center">
+      						<h3 data-ccn="title" class="mt0" data-ccn-c="color_title" data-ccn-co="content" style="color:rgb(29, 59, 108);">Nuestras Categorías de Cursos</h3>
+      						<p data-ccn="subtitle" data-ccn-c="color_subtitle" data-ccn-co="content" style="color:#6f7074;">Aprende y desarrolla las habilidades que necesitas con cada uno de nuestros cursos</p>
+      					</div>
+      				</div>
+      			</div>
+      			<div class="row">
+              <div class="col-12">
+                <div class="row">
+              <div class="col-sm-6 col-lg-3">
+                <a href="https://izyacademy.com/course/index.php?categoryid=15" class="img_hvr_box" style="background-image: url(https://izyacademy.com/pluginfile.php/10238/course/overviewfiles/desarrollo-%282%29_optimized.png);">
+                  <div class="overlay">
+                    <div class="details">
+                      <h5>Desarrollo y Lógica de Programación   </h5><p></p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col-sm-6 col-lg-3">
+                <a href="https://izyacademy.com/course/index.php?categoryid=16" class="img_hvr_box" style="background-image: url(https://izyacademy.com/pluginfile.php/12692/course/overviewfiles/fund-istqb-v2_optimized.jpg);">
+                  <div class="overlay">
+                    <div class="details">
+                      <h5>Metodología de Pruebas y Calidad del Software   </h5><p></p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col-sm-6 col-lg-3">
+                <a href="https://izyacademy.com/course/index.php?categoryid=19" class="img_hvr_box" style="background-image: url(https://izyacademy.com/pluginfile.php/121/course/overviewfiles/manual_testing.jpg);">
+                  <div class="overlay">
+                    <div class="details">
+                      <h5>Pruebas Funcionales Manuales   </h5><p></p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col-sm-6 col-lg-3">
+                <a href="https://izyacademy.com/course/index.php?categoryid=21" class="img_hvr_box" style="background-image: url(https://izyacademy.com/pluginfile.php/4654/course/overviewfiles/performance.jpg);">
+                  <div class="overlay">
+                    <div class="details">
+                      <h5>Pruebas No Funcionales   </h5><p></p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col-sm-6 col-lg-3">
+                <a href="https://izyacademy.com/course/index.php?categoryid=27" class="img_hvr_box" style="background-image: url(https://izyacademy.com/pluginfile.php/8793/course/overviewfiles/selenium_webdriver2021_optimized.jpg);">
+                  <div class="overlay">
+                    <div class="details">
+                      <h5>Automatización </h5><p></p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col-sm-6 col-lg-3">
+                <a href="https://izyacademy.com/course/index.php?categoryid=54" class="img_hvr_box" style="background-image: url(https://izyacademy.com/pluginfile.php/16115/course/overviewfiles/img%20%285%29.png);">
+                  <div class="overlay">
+                    <div class="details">
+                      <h5>Científico de Datos</h5><p></p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col-sm-6 col-lg-3">
+                <a href="https://izyacademy.com/course/index.php?categoryid=23" class="img_hvr_box" style="background-image: url(https://izyacademy.com/pluginfile.php/3952/course/overviewfiles/cloud_aws.jpg);">
+                  <div class="overlay">
+                    <div class="details">
+                      <h5>Cloud </h5><p></p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col-sm-6 col-lg-3">
+                <a href="https://izyacademy.com/course/index.php?categoryid=62" class="img_hvr_box" style="background-image: url(https://izyacademy.com/pluginfile.php/19283/course/overviewfiles/Introduccion_Asp.Net.png);">
+                  <div class="overlay">
+                    <div class="details">
+                      <h5>Ruta de formación en .Net </h5><p></p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+              <div class="row">
+                <div class="col-lg-6 offset-lg-3">
+                  <div class="courses_all_btn text-center">
+                    <a data-ccn="button_text" data-ccn-c="color_btn" data-ccn-cv="rgb(29, 59, 108)" data-ccn-bdrrd="button_bdrrd" class="btn btn-transparent ccnLcEl--i ccn__105509606__42697460" href="https://izyacademy.com/course/index.php" style="border-radius: 50px; color: rgb(29, 59, 108);" data-ccn-id="ccn__105509606__42697460">Ver todas las categorías</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+  
+  
+  </div>
+
+    <span id="sb-5"></span>
+
+</div><div id="inst13696" class="block_cocoon_slider_7 block ccn_morphed" role="complementary" data-block="cocoon_slider_7" style="">
+
+    <a href="#sb-6" class="sr-only sr-only-focusable">Salta [Cocoon] Slider style 7</a>
+
+
+
+
+
+  <div class="ccnBlockContent">
+  
+
+
+
+            <div class="home14-slider">
+            		<div class="container maxw1500">
+            			<div class="row">
+            				<div class="col-lg-12">
+            					<div class="main-banner-wrapper">
+            					    <div class="ccn-banner-style-boxed banner-style-one banner-style-one--single owl-theme owl-carousel home14 owl-loaded owl-text-select-on" data-ccn-id="13696" data-ccn-caro-ap="0" data-ccn-caro-ap-to="3000" data-ccn-caro-ap-p="0" data-ccn-caro-s="1000" data-ccn-caro-l="1" data-ccn-caro-ll="0" data-ccn-caro-ao="rollOut" data-ccn-caro-ai="fadeIn">
+
+                          
+
+                        
+
+
+
+<div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(0px, 0px, 0px); transition: all 0s ease 0s; width: 1351px;"><div class="owl-item active" style="width: 1351px; margin-right: 0px;"><div class="slide slide-one home14" style="background-image: url(https://izyacademy.com/pluginfile.php/19818/block_cocoon_slider_7/slides/1/img-2345_optimized.jpg);">
+                              <div class="container">
+                                  <div class="row">
+                                      <div class="col-lg-8 offset-lg-2 text-center">
+                                          <div class="banner-sub-title text-capitalize fw400" data-ccn="title_1">¡ANÍMATE E INICIA TU CERTIFICACIÓN!</div>
+                                          <div class="banner-title text-capitalize fwb mb25" data-ccn="title_2_1"></div>
+                                          <div class="btn-block">
+                                              <a data-ccn="button_text_1" href="" class="banner-btn bdrs3"></a>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div></div></div></div><div class="owl-controls"><div class="owl-nav"><div class="owl-prev" style="display: none;">prev</div><div class="owl-next" style="display: none;">next</div></div><div class="owl-dots" style="display: none;"></div></div></div>
+
+
+
+
+
+</div><!-- /.main-banner-wrapper -->
+</div>
+</div>
+</div>
+</div>
+  
+  
+  </div>
+
+    <span id="sb-6"></span>
+
+</div><div id="inst14491" class="
+   
+   block_cocoon_course_categories block 
+   
+" role="navigation" data-block="cocoon_course_categories" style="margin-top:-40px;">
+
+    <a href="#sb-7" class="sr-only sr-only-focusable">Salta [Cocoon] Course categories</a>
+
+
+
+
+
+  <div class="ccnBlockContent">
+  
+        <style type="text/css">
+        .img_hvr_box:before {
+          background-color: rgba(10,10,10,.5);
+        }
+        .img_hvr_box:hover:before {
+          background-color: #2441e7;
+        }
+        </style>
+        <section id="our-courses" class="our-courses pt90 pt650-992" data-ccn-c="color_bg" data-ccn-co="bg" style="background-color:rgb(255,255,255);">
+      		<div class="container">
+      			<div class="row">
+      				<div class="col-lg-12">
+      					
+      				</div>
+      			</div>
+      		</div>
+      		<div class="container">
+      			<div class="row">
+      				<div class="col-lg-6 offset-lg-3">
+      					<div class="main-title text-center">
+      						<h3 data-ccn="title" class="mt0" data-ccn-c="color_title" data-ccn-co="content" style="color:#0a0a0a;">Nuestras Categorías de Certificaciones</h3>
+      						<p data-ccn="subtitle" data-ccn-c="color_subtitle" data-ccn-co="content" style="color:#6f7074;">El aprendizaje nunca termina, pero una certificación es un gran paso hacia el progreso y el crecimiento profesional.</p>
+      					</div>
+      				</div>
+      			</div>
+      			<div class="row">
+              <div class="col-12">
+                <div class="row">
+              <div class="col-sm-6 col-lg-3">
+                <a href="https://izyacademy.com/course/index.php?categoryid=39" class="img_hvr_box" style="background-image: url(https://izyacademy.com/pluginfile.php/6024/course/overviewfiles/scrum_developer-%282%29_optimized.jpg);">
+                  <div class="overlay">
+                    <div class="details">
+                      <h5>Certificaciones Scrum</h5><p></p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col-sm-6 col-lg-3">
+                <a href="https://izyacademy.com/course/index.php?categoryid=17" class="img_hvr_box" style="background-image: url(https://izyacademy.com/pluginfile.php/7050/course/overviewfiles/img-2323235.jpg);">
+                  <div class="overlay">
+                    <div class="details">
+                      <h5>Certificaciones Agile</h5><p></p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col-sm-6 col-lg-3">
+                <a href="https://izyacademy.com/course/index.php?categoryid=22" class="img_hvr_box" style="background-image: url(https://izyacademy.com/pluginfile.php/7368/course/overviewfiles/devops.jpg);">
+                  <div class="overlay">
+                    <div class="details">
+                      <h5>Certificaciones DevOps </h5><p></p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col-sm-6 col-lg-3">
+                <a href="https://izyacademy.com/course/index.php?categoryid=38" class="img_hvr_box" style="background-image: url(https://izyacademy.com/pluginfile.php/12008/course/overviewfiles/inteligencia%20artificial.png);">
+                  <div class="overlay">
+                    <div class="details">
+                      <h5>Inteligencia Artificial</h5><p></p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col-sm-6 col-lg-3">
+                <a href="https://izyacademy.com/course/index.php?categoryid=42" class="img_hvr_box" style="background-image: url(https://izyacademy.com/pluginfile.php/13225/course/overviewfiles/microsoftteams-image-%2822%29-%281%29_optimized.png);">
+                  <div class="overlay">
+                    <div class="details">
+                      <h5>Certificaciones en Big Data</h5><p></p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col-sm-6 col-lg-3">
+                <a href="https://izyacademy.com/course/index.php?categoryid=44" class="img_hvr_box" style="background-image: url(https://izyacademy.com/pluginfile.php/19616/course/overviewfiles/fondo%20ia.png);">
+                  <div class="overlay">
+                    <div class="details">
+                      <h5>Next-Gen IT Certification</h5><p></p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col-sm-6 col-lg-3">
+                <a href="https://izyacademy.com/course/index.php?categoryid=43" class="img_hvr_box" style="background-image: url(https://izyacademy.com/pluginfile.php/19582/course/overviewfiles/mujer-cientifico-blanco%20%281%29.jpg);">
+                  <div class="overlay">
+                    <div class="details">
+                      <h5>Certificaciones en Transformación Digital</h5><p></p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col-sm-6 col-lg-3">
+                <a href="https://izyacademy.com/course/index.php?categoryid=68" class="img_hvr_box" style="background-image: url(https://izyacademy.com/pluginfile.php/19649/course/overviewfiles/Foto%20gratuita%20vista%20lateral%20de%20un%20t%C3%A9cnico%20masculino%20usando%20tableta%20digital.png);">
+                  <div class="overlay">
+                    <div class="details">
+                      <h5>Certificaciones en SOA</h5><p></p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+              <div class="row">
+                <div class="col-lg-6 offset-lg-3">
+                  <div class="courses_all_btn text-center">
+                    <a data-ccn="button_text" data-ccn-c="color_btn" data-ccn-cv="#2441e7" data-ccn-bdrrd="button_bdrrd" class="btn btn-transparent ccnLcEl--i ccn__146172166__16083028" href="https://izyacademy.com/course/index.php" style="border-radius: 50px; color: rgb(36, 65, 231);" data-ccn-id="ccn__146172166__16083028">Ver todas las certificaciones</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+  
+  
+  </div>
+
+    <span id="sb-7"></span>
+
+</div><div id="inst14490" class="
+   
+   block_cocoon_parallax block 
+   
+" role="complementary" data-block="cocoon_parallax" style="">
+
+    <a href="#sb-8" class="sr-only sr-only-focusable">Salta [Cocoon] Parallax</a>
+
+
+
+
+
+  <div class="ccnBlockContent">
+  
+
+
+        <section data-ccn="image" data-ccn-img="bg-img-url" class="divider parallax bg-img2" data-stellar-background-ratio="0.3" style="background-image:url(https://izyacademy.com/pluginfile.php/20803/block_cocoon_parallax/content/slider%20%281%29-02.png);background-size:cover;">
+ 		<div class="container">
+ 			<div class="row">
+ 				<div class="col-lg-8 offset-lg-2 text-center">
+ 					<div class="divider-one">
+ 						<p class="color-white" data-ccn="subtitle">¡Empieza hoy mismo tu aventura de aprendizaje en línea!</p>
+ 						<h1 class="color-white text-uppercase" data-ccn="title">El éxito en la vida depende de lo bien que te prepares para las oportunidades</h1>
+ 						<a data-ccn="button_text" class="btn btn-transparent divider-btn" href="https://izyacademy.com/course/index.php">Empieza ahora</a>
+ 					</div>
+ 				</div>
+ 			</div>
+ 		</div>
+ 	</section>
+
+  
+  
+  </div>
+
+    <span id="sb-8"></span>
+
+</div><div id="inst13610" class="
+   
+   block_cocoon_gallery block 
+   
+" role="complementary" data-block="cocoon_gallery" style="">
+
+    <a href="#sb-9" class="sr-only sr-only-focusable">Salta [Cocoon] Gallery</a>
+
+
+
+
+
+  <div class="ccnBlockContent">
+  
+        <section class="about-section pb30">
+      		<div class="container">
+            <div class="row">
+				      <div class="col-lg-6 offset-lg-3">
+					      <div class="main-title text-center">
+						      <h3 class="mt0">Certificados e Insignias</h3>
+						      <p>IzyAcademy reconoce tus logros por medio de certificados e insignias digitales avaladas por Credly</p>
+					      </div>
+				      </div>
+			      </div>
+      			<div class="row">
+              
+                  <div class="col-sm-6 col-md-6 col-lg-6 ccn_gallery_col_2">
+					          <div class="gallery_item">
+						          <img class="img-fluid img-circle-rounded w100" src="https://izyacademy.com/pluginfile.php/19719/block_cocoon_gallery/content/certificado1-%20home02%20%282%29.png" alt="certificado1- home02 (2).png">
+						            <div class="gallery_overlay">
+                          <a class="ccn-icon popup-img" href="https://izyacademy.com/pluginfile.php/19719/block_cocoon_gallery/content/certificado1-%20home02%20%282%29.png"><span class="flaticon-zoom-in"></span></a>
+                        </div>
+				              </div>
+                    </div>
+                  <div class="col-sm-6 col-md-6 col-lg-6 ccn_gallery_col_2">
+					          <div class="gallery_item">
+						          <img class="img-fluid img-circle-rounded w100" src="https://izyacademy.com/pluginfile.php/19719/block_cocoon_gallery/content/insignia_optimized%20%282%29.png" alt="insignia_optimized (2).png">
+						            <div class="gallery_overlay">
+                          <a class="ccn-icon popup-img" href="https://izyacademy.com/pluginfile.php/19719/block_cocoon_gallery/content/insignia_optimized%20%282%29.png"><span class="flaticon-zoom-in"></span></a>
+                        </div>
+				              </div>
+                    </div>
+            </div>
+          </div>
+        </section>
+  
+  
+  </div>
+
+    <span id="sb-9"></span>
+
+</div><div id="inst13612" class="
+   
+   block_cocoon_gallery block 
+   
+" role="complementary" data-block="cocoon_gallery" style="margin-top:-45px;">
+
+    <a href="#sb-10" class="sr-only sr-only-focusable">Salta [Cocoon] Gallery</a>
+
+
+
+
+
+  <div class="ccnBlockContent">
+  
+        <section class="about-section pb30">
+      		<div class="container">
+            <div class="row">
+				      <div class="col-lg-6 offset-lg-3">
+					      <div class="main-title text-center">
+						      <h3 class="mt0">Conoce Nuestros Aliados</h3>
+						      <p>¡Trabajando siempre de la mano con los mejores!</p>
+					      </div>
+				      </div>
+			      </div>
+      			<div class="row">
+              
+                  <div class="col-sm-6 col-md-6 col-lg-2 ccn_gallery_col_6">
+					          <div class="gallery_item">
+						          <img class="img-fluid img-circle-rounded w100" src="https://izyacademy.com/pluginfile.php/19721/block_cocoon_gallery/content/Arcitura.png" alt="Arcitura.png">
+						            <div class="gallery_overlay">
+                          <a class="ccn-icon popup-img" href="https://izyacademy.com/pluginfile.php/19721/block_cocoon_gallery/content/Arcitura.png"><span class="flaticon-zoom-in"></span></a>
+                        </div>
+				              </div>
+                    </div>
+                  <div class="col-sm-6 col-md-6 col-lg-2 ccn_gallery_col_6">
+					          <div class="gallery_item">
+						          <img class="img-fluid img-circle-rounded w100" src="https://izyacademy.com/pluginfile.php/19721/block_cocoon_gallery/content/Brightest.png" alt="Brightest.png">
+						            <div class="gallery_overlay">
+                          <a class="ccn-icon popup-img" href="https://izyacademy.com/pluginfile.php/19721/block_cocoon_gallery/content/Brightest.png"><span class="flaticon-zoom-in"></span></a>
+                        </div>
+				              </div>
+                    </div>
+                  <div class="col-sm-6 col-md-6 col-lg-2 ccn_gallery_col_6">
+					          <div class="gallery_item">
+						          <img class="img-fluid img-circle-rounded w100" src="https://izyacademy.com/pluginfile.php/19721/block_cocoon_gallery/content/CertiProf.png" alt="CertiProf.png">
+						            <div class="gallery_overlay">
+                          <a class="ccn-icon popup-img" href="https://izyacademy.com/pluginfile.php/19721/block_cocoon_gallery/content/CertiProf.png"><span class="flaticon-zoom-in"></span></a>
+                        </div>
+				              </div>
+                    </div>
+                  <div class="col-sm-6 col-md-6 col-lg-2 ccn_gallery_col_6">
+					          <div class="gallery_item">
+						          <img class="img-fluid img-circle-rounded w100" src="https://izyacademy.com/pluginfile.php/19721/block_cocoon_gallery/content/Credly.png" alt="Credly.png">
+						            <div class="gallery_overlay">
+                          <a class="ccn-icon popup-img" href="https://izyacademy.com/pluginfile.php/19721/block_cocoon_gallery/content/Credly.png"><span class="flaticon-zoom-in"></span></a>
+                        </div>
+				              </div>
+                    </div>
+                  <div class="col-sm-6 col-md-6 col-lg-2 ccn_gallery_col_6">
+					          <div class="gallery_item">
+						          <img class="img-fluid img-circle-rounded w100" src="https://izyacademy.com/pluginfile.php/19721/block_cocoon_gallery/content/Digital%20School.png" alt="Digital School.png">
+						            <div class="gallery_overlay">
+                          <a class="ccn-icon popup-img" href="https://izyacademy.com/pluginfile.php/19721/block_cocoon_gallery/content/Digital%20School.png"><span class="flaticon-zoom-in"></span></a>
+                        </div>
+				              </div>
+                    </div>
+                  <div class="col-sm-6 col-md-6 col-lg-2 ccn_gallery_col_6">
+					          <div class="gallery_item">
+						          <img class="img-fluid img-circle-rounded w100" src="https://izyacademy.com/pluginfile.php/19721/block_cocoon_gallery/content/Formarte.png" alt="Formarte.png">
+						            <div class="gallery_overlay">
+                          <a class="ccn-icon popup-img" href="https://izyacademy.com/pluginfile.php/19721/block_cocoon_gallery/content/Formarte.png"><span class="flaticon-zoom-in"></span></a>
+                        </div>
+				              </div>
+                    </div>
+                  <div class="col-sm-6 col-md-6 col-lg-2 ccn_gallery_col_6">
+					          <div class="gallery_item">
+						          <img class="img-fluid img-circle-rounded w100" src="https://izyacademy.com/pluginfile.php/19721/block_cocoon_gallery/content/InterSoftware.png" alt="InterSoftware.png">
+						            <div class="gallery_overlay">
+                          <a class="ccn-icon popup-img" href="https://izyacademy.com/pluginfile.php/19721/block_cocoon_gallery/content/InterSoftware.png"><span class="flaticon-zoom-in"></span></a>
+                        </div>
+				              </div>
+                    </div>
+                  <div class="col-sm-6 col-md-6 col-lg-2 ccn_gallery_col_6">
+					          <div class="gallery_item">
+						          <img class="img-fluid img-circle-rounded w100" src="https://izyacademy.com/pluginfile.php/19721/block_cocoon_gallery/content/Scrumstudy.png" alt="Scrumstudy.png">
+						            <div class="gallery_overlay">
+                          <a class="ccn-icon popup-img" href="https://izyacademy.com/pluginfile.php/19721/block_cocoon_gallery/content/Scrumstudy.png"><span class="flaticon-zoom-in"></span></a>
+                        </div>
+				              </div>
+                    </div>
+                  <div class="col-sm-6 col-md-6 col-lg-2 ccn_gallery_col_6">
+					          <div class="gallery_item">
+						          <img class="img-fluid img-circle-rounded w100" src="https://izyacademy.com/pluginfile.php/19721/block_cocoon_gallery/content/Sena.png" alt="Sena.png">
+						            <div class="gallery_overlay">
+                          <a class="ccn-icon popup-img" href="https://izyacademy.com/pluginfile.php/19721/block_cocoon_gallery/content/Sena.png"><span class="flaticon-zoom-in"></span></a>
+                        </div>
+				              </div>
+                    </div>
+            </div>
+          </div>
+        </section>
+  
+  
+  </div>
+
+    <span id="sb-10"></span>
+
+</div><div id="inst7027" class="
+   
+   block_cocoon_services_dark block 
+   
+" role="complementary" data-block="cocoon_services_dark" style="">
+
+    <a href="#sb-12" class="sr-only sr-only-focusable">Salta [Cocoon] Services Dark</a>
+
+
+
+
+
+  <div class="ccnBlockContent">
+  
+        <section class="whychose_us ccn__144493903__63100003" data-ccn-c="color_bg" data-ccn-co="bg" data-ccn-cv="rgb(29, 58, 108)" data-ccn-id="ccn__144493903__63100003" style="background-color: rgb(29, 58, 108);">
+      		<div class="container">
+      			<div class="row">
+      				<div class="col-lg-6 offset-lg-3">
+      					<div class="main-title text-center">
+      						<h3 class="mt0 ccn__141493245__45468971" data-ccn="title" data-ccn-c="color_title" data-ccn-cv="rgb(255,255,255)" data-ccn-id="ccn__141493245__45468971" style="color: rgb(255, 255, 255);">¿Por qué elegirnos?</h3>
+      						<p class="ccn__144416194__43736760" data-ccn="subtitle" data-ccn-c="color_subtitle" data-ccn-cv="rgb(255,255,255)" data-ccn-id="ccn__144416194__43736760" style="color: rgb(255, 255, 255);"></p>
+      					</div>
+      				</div>
+      			</div>
+      			<div class="row">
+<div class="col-md-6 col-lg-4 col-xl-4">
+<div class="why_chose_us style2 ccn__165657802__58698657" data-ccn-c="c_ccn_i_c" data-ccn-co="bg" data-ccn-cv="rgb(22, 32, 90)" data-ccn-id="ccn__165657802__58698657" style="background-color: rgb(22, 32, 90);"><a href="http://izyacademy.com/course/index.php?categoryid=17">
+						<div class="icon">
+							<span data-ccn="icon1" data-ccn-c="c_ccn_i" data-ccn-cv="rgb(68, 180, 155)" class="flaticon-student-3 ccn__131155376__3557357" data-ccn-id="ccn__131155376__3557357" style="color: rgb(68, 180, 155);"></span>
+						</div>
+						<div class="details">
+							<h4 data-ccn="title1" data-ccn-c="color_item_title" data-ccn-cv="rgb(255,255,255)" class="ccn__188154144__23875949" data-ccn-id="ccn__188154144__23875949" style="color: rgb(255, 255, 255);">Aprendizaje orientado al desarrollo de retos</h4>
+							<p data-ccn="body1" data-ccn-c="color_item_body" data-ccn-cv="rgba(255, 255, 255, .6)" class="ccn__172704987__36166165" data-ccn-id="ccn__172704987__36166165" style="color: rgba(255, 255, 255, 0.6);">En nuestros cursos, implementamos casos de estudio que permiten la implementación de conocimientos y el aprendizaje práctico.</p>
+						</div></a>
+					</div>
+          </div>
+
+
+
+<div class="col-md-6 col-lg-4 col-xl-4">
+<div class="why_chose_us style2 ccn__177491261__20491095" data-ccn-c="c_ccn_i_c" data-ccn-co="bg" data-ccn-cv="rgb(22, 32, 90)" data-ccn-id="ccn__177491261__20491095" style="background-color: rgb(22, 32, 90);"><a href="http://izyacademy.com/course/index.php?categoryid=17">
+						<div class="icon">
+							<span data-ccn="icon2" data-ccn-c="c_ccn_i" data-ccn-cv="rgb(68, 180, 155)" class="flaticon-first ccn__191413856__13620471" data-ccn-id="ccn__191413856__13620471" style="color: rgb(68, 180, 155);"></span>
+						</div>
+						<div class="details">
+							<h4 data-ccn="title2" data-ccn-c="color_item_title" data-ccn-cv="rgb(255,255,255)" class="ccn__167066197__43137286" data-ccn-id="ccn__167066197__43137286" style="color: rgb(255, 255, 255);">Plan de Insignias y Estrategias de Gamificación</h4>
+							<p data-ccn="body2" data-ccn-c="color_item_body" data-ccn-cv="rgba(255, 255, 255, .6)" class="ccn__101881501__26178421" data-ccn-id="ccn__101881501__26178421" style="color: rgba(255, 255, 255, 0.6);">Incentivamos el aprendizaje y valoramos tu esfuerzo para lograr fortalecerte en las necesidades de formación identificadas</p>
+						</div></a>
+					</div>
+          </div>
+
+
+
+<div class="col-md-6 col-lg-4 col-xl-4">
+<div class="why_chose_us style2 ccn__104676393__58155356" data-ccn-c="c_ccn_i_c" data-ccn-co="bg" data-ccn-cv="rgb(22, 32, 90)" data-ccn-id="ccn__104676393__58155356" style="background-color: rgb(22, 32, 90);"><a href="http://izyacademy.com/course/index.php?categoryid=17">
+						<div class="icon">
+							<span data-ccn="icon3" data-ccn-c="c_ccn_i" data-ccn-cv="rgb(68, 180, 155)" class="la la-pen ccn__119245596__22146732" data-ccn-id="ccn__119245596__22146732" style="color: rgb(68, 180, 155);"></span>
+						</div>
+						<div class="details">
+							<h4 data-ccn="title3" data-ccn-c="color_item_title" data-ccn-cv="rgb(255,255,255)" class="ccn__101463389__46757344" data-ccn-id="ccn__101463389__46757344" style="color: rgb(255, 255, 255);">Contenidos de Formación Adaptativos con rutas de formación</h4>
+							<p data-ccn="body3" data-ccn-c="color_item_body" data-ccn-cv="rgba(255, 255, 255, .6)" class="ccn__194006902__73539867" data-ccn-id="ccn__194006902__73539867" style="color: rgba(255, 255, 255, 0.6);">Buscamos facilitar a nuestros participantes diferentes rutas de formación que faciliten su aprendizaje y avance en cada uno de los contenidos</p>
+						</div></a>
+					</div>
+          </div>
+
+
+
+
+      			</div>
+      		</div>
+      	</section>
+
+  
+  
+  </div>
+
+    <span id="sb-12"></span>
+
+</div></aside>
+        <div id="ccn-main-region" style="padding-top: 0px; padding-bottom: 0px;">
+          <div class="container">
+            <div class="row">
+              <div class="
+                 col-md-12 col-lg-12 col-xl-12 
+                
+                
+                
+              ">
+              <div id="region-main" aria-label="Contenido"><span id="user-notifications"></span>
+                  <aside id="block-region-above-content" class="block-region" data-blockregion="above-content" data-droptarget="1"></aside>
+                
+                  <aside id="block-region-below-content" class="block-region" data-blockregion="below-content" data-droptarget="1"></aside>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <aside id="block-region-fullwidth-bottom" class="block-region" data-blockregion="fullwidth-bottom" data-droptarget="1"></aside>
+      </div>
+    </div>
+    <div class="ccn_footer_surround">
+      <section class="footer_one">
+        <div class="container">
+          <div class="row">
+              <div class="col-sm-6 col-md-4 col-md-3 col-lg-3">
+                <div class="footer_contact_widget">
+                  <h4>Contáctanos</h4>
+                  <br>E-mail : comercial@qvision.us
+<br> WhatsApp +300 255 02 65
+<br><a style="color: white" href="/mod/page/view.php?id=2383">Comunícate con nosotros</a>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-md-3 col-lg-2">
+                <div class="footer_company_widget">
+                  <h4>Categorías de Cursos</h4>
+                  <a style="color: white" href="/course/index.php?categoryid=15">Desarrollo</a>
+<br><a style="color: white" href="/course/index.php?categoryid=16">Metodología de Pruebas</a>
+<br><a style="color: white" href="/course/index.php?categoryid=19">Pruebas Funcionales</a>
+<br><a style="color: white" href="/course/index.php?categoryid=21">Pruebas No Funcionales</a>
+<br><a style="color: white" href="/course/index.php?categoryid=22">DevOps</a>
+<br><a style="color: white" href="/course/index.php?categoryid=23">Cloud</a>
+<br><a style="color: white" href="/course/index.php?categoryid=27">Automatización</a>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-md-3 col-lg-2">
+                <div class="footer_program_widget">
+                  <h4>Certificaciones</h4>
+                  <a style="color: white" href="/course/view.php?id=150">Scrum Master</a>
+<br><a style="color: white" href="/course/view.php?id=149">Scrum Product Owner</a>
+<br><a style="color: white" href="/course/view.php?id=151">Scrum Developer</a>
+<br><a style="color: white" href="/course/view.php?id=159">Agile Coach</a>
+<br><a style="color: white" href="/course/view.php?id=158">Design Thinking</a>
+<br><a style="color: white" href="/course/view.php?id=157">Kanban</a>
+<br><a style="color: white" href="/course/view.php?id=162">OKR</a>
+<br><a style="color: white" href="/course/view.php?id=160">DevOps</a>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-md-3 col-lg-2">
+                <div class="footer_support_widget">
+                  <h4>Q-Vision Technologies</h4>
+                  <a style="color: white" href="https://qvisiontechnologies.com/fabrica-de-software/">Desarrollo de Software</a>
+<br><a style="color: white" href="https://qvisiontechnologies.com/aseguramiento-de-calidad/">Aseguramiento de Calidad</a>
+<br><a style="color: white" href="https://qvisiontechnologies.com/servicios/automatizacion-robotica-inteligente-procesos/">Automatización de Procesos con RPA</a>
+<br><a style="color: white" href="https://qvisiontechnologies.com/servicios/talento-ti/">Talento TI</a>
+<br><a style="color: white" href="https://qvisiontechnologies.com/gestion-inteligente-datos/">Gestión Inteligente de Datos</a>
+
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-md-3 col-lg-3">
+                <div class="footer_apps_widget">
+                  <h4>Soporte</h4>
+                  Si tienes inconvenientes o dudas,
+contáctanos al correo
+<a style="color:white" href="/mod/page/view.php?id=2383">izyacademy@qvision.us</a>
+                </div>
+              </div>
+          </div>
+        </div>
+      </section>
+      <section class="footer_middle_area p0">
+        <div class="container">
+          <div class="row">
+              <div class="col-sm-4 col-md-1 mr25 pb15 pt15">
+                <div class="logo-widget">
+                   <img class="img-fluid" src="https://izyacademy.com/pluginfile.php/1/theme_edumy/footerlogo1/1692394958/izy_negativo.png" alt="¡Te enseña fácil!" style="height:50px;max-height:none!important;">
+                  
+                </div>
+              </div>
+              <div class="col-sm-8 col-md-5 col-lg-6 col-xl-6 text-center pb25 pt25">
+                <div class="footer_menu_widget">
+                  <a style="color:#FFFFFF;" href="https://izyacademy.com/mod/page/view.php?id=3181">Términos y Condiciones</a> - 
+<a style="color:#FFFFFF;" href="https://izyacademy.com/mod/page/view.php?id=3682" target="_blank" rel="noreferrer noopener">Política Tratamiento de Datos</a>
+
+                </div>
+              </div>
+            <div class="col-sm-12 col-md-4 col-lg-3 col-xl-3 pb15 pt15">
+              <div class="footer_social_widget mt15">
+                <ul>
+                    <li class="list-inline-item"><a target="_blank" href="https://www.facebook.com/izyacademy"><i class="fa fa-facebook"></i></a></li>
+                    <li class="list-inline-item"><a target="_blank" href="https://twitter.com/izy_academy"><i class="fa fa-twitter"></i></a></li>
+                    <li class="list-inline-item"><a target="_blank" href="https://www.instagram.com/izy_academy/"><i class="fa fa-instagram"></i></a></li>
+                    <li class="list-inline-item"><a target="_blank" href="https://www.linkedin.com/company/izy-academy"><i class="fa fa-linkedin"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+        <section class="footer_bottom_area pt25 pb25">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6 offset-lg-3">
+                <div class="copyright-widget text-center">
+                  <p>Copyright © 2023 IzyAcademy Marca Registrada By Qvision Technologies.</p>
+                  <div class="tool_usertours-resettourcontainer"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+    </div>
+  
+  
+    <a class="scrollToHome" href="#"><i class="flaticon-up-arrow-1"></i></a>
+  
+  
+  
+  
+<a href="https://wa.me/573002550265/?text=¡Hola!%20quiero%20saber%20m%C3%A1s%20sobre%20izyacademy" class="boton-whatsapp" target="_blank">
+<i class="fa fa-whatsapp wht-flotante"></i>
+</a><script>
+//<![CDATA[
+var require = {
+    baseUrl : 'https://izyacademy.com/lib/requirejs.php/1687275243/',
+    // We only support AMD modules with an explicit define() statement.
+    enforceDefine: true,
+    skipDataMain: true,
+    waitSeconds : 0,
+
+    paths: {
+        jquery: 'https://izyacademy.com/lib/javascript.php/1687275243/lib/jquery/jquery-3.6.1.min',
+        jqueryui: 'https://izyacademy.com/lib/javascript.php/1687275243/lib/jquery/ui-1.13.2/jquery-ui.min',
+        jqueryprivate: 'https://izyacademy.com/lib/javascript.php/1687275243/lib/requirejs/jquery-private'
+    },
+
+    // Custom jquery config map.
+    map: {
+      // '*' means all modules will get 'jqueryprivate'
+      // for their 'jquery' dependency.
+      '*': { jquery: 'jqueryprivate' },
+      // Stub module for 'process'. This is a workaround for a bug in MathJax (see MDL-60458).
+      '*': { process: 'core/first' },
+
+      // 'jquery-private' wants the real jQuery module
+      // though. If this line was not here, there would
+      // be an unresolvable cyclic dependency.
+      jqueryprivate: { jquery: 'jquery' }
+    }
+};
+
+//]]>
+</script>
+<script src="https://izyacademy.com/lib/javascript.php/1687275243/lib/requirejs/require.min.js"></script>
+<script>
+//<![CDATA[
+M.util.js_pending("core/first");
+require(['core/first'], function() {
+require(['core/prefetch'])
+;
+require(["media_videojs/loader"], function(loader) {
+    loader.setUp('es');
+});;
+
+    require(['core/moremenu'], function(moremenu) {
+        moremenu(document.querySelector('#moremenu-650dabf3dc3a5-navbar-nav'));
+    });
+;
+
+  M.util.js_pending('theme_boost/loader');
+  require(['theme_boost/loader'], function() {
+  M.util.js_complete('theme_boost/loader');
+  });
+  M.util.js_pending('theme_boost/drawer');
+  require(['theme_boost/drawer'], function(mod) {
+  mod.init();
+  M.util.js_complete('theme_boost/drawer');
+  });
+;
+M.util.js_pending('core/notification'); require(['core/notification'], function(amd) {amd.init(2, []); M.util.js_complete('core/notification');});;
+M.util.js_pending('core/log'); require(['core/log'], function(amd) {amd.setConfig({"level":"warn"}); M.util.js_complete('core/log');});;
+M.util.js_pending('core/page_global'); require(['core/page_global'], function(amd) {amd.init(); M.util.js_complete('core/page_global');});;
+M.util.js_pending('core/utility'); require(['core/utility'], function(amd) {M.util.js_complete('core/utility');});
+    M.util.js_complete("core/first");
+});
+//]]>
+</script>
+<script>
+//<![CDATA[
+M.str = {"moodle":{"lastmodified":"\u00daltima modificaci\u00f3n","name":"Nombre","error":"Error","info":"Informaci\u00f3n","yes":"S\u00ed","no":"No","cancel":"Cancelar","confirm":"Confirmar","areyousure":"\u00bfEst\u00e1 seguro?","closebuttontitle":"Cerrar","unknownerror":"Error desconocido","file":"Archivo","url":"URL","collapseall":"Colapsar todo","expandall":"Expandir todo"},"repository":{"type":"Tipo","size":"Tama\u00f1o","invalidjson":"Cadena JSON no v\u00e1lida","nofilesattached":"No se han adjuntado archivos","filepicker":"Selector de archivos","logout":"Salir","nofilesavailable":"No hay archivos disponibles","norepositoriesavailable":"Lo sentimos, ninguno de sus repositorios actuales puede devolver archivos en el formato solicitado.","fileexistsdialogheader":"El archivo existe","fileexistsdialog_editor":"Un archivo con ese nombre ha sido anexado al texto que Usted est\u00e1 editando","fileexistsdialog_filemanager":"Ya ha sido anexado un archivo con ese nombre","renameto":"Cambiar el nombre a \"{$a}\"","referencesexist":"Existen {$a} enlaces a este archivo","select":"Seleccionar"},"admin":{"confirmdeletecomments":"Est\u00e1 a punto de eliminar comentarios, \u00bfest\u00e1 seguro?","confirmation":"Confirmaci\u00f3n"},"debug":{"debuginfo":"Informaci\u00f3n de depuraci\u00f3n","line":"L\u00ednea","stacktrace":"Trazado de la pila (stack)"},"langconfig":{"labelsep":":"}};
+//]]>
+</script>
+<script>
+//<![CDATA[
+(function() {Y.use("moodle-filter_mathjaxloader-loader",function() {M.filter_mathjaxloader.configure({"mathjaxconfig":"\nMathJax.Hub.Config({\n    config: [\"Accessible.js\", \"Safe.js\"],\n    errorSettings: { message: [\"!\"] },\n    skipStartupTypeset: true,\n    messageStyle: \"none\"\n});\n","lang":"es"});
+});
+ccnCommentHandler(Y, "Add a Comment & Review");
+ccnControl(Y, "https:\/\/izyacademy.com\/theme\/edumy\/ccn\/visualize\/ccn_block\/jpeg\/large\/", "https:\/\/izyacademy.com\/theme\/edumy\/ccn\/visualize\/ccn_block\/jpeg\/thumb\/", ["cocoon_about_1","cocoon_about_2","cocoon_accordion","cocoon_action_panels","cocoon_boxes","cocoon_blog_recent_slider","cocoon_faqs","cocoon_event_list","cocoon_event_list_2","cocoon_featured_teacher","cocoon_featured_posts","cocoon_featured_video","cocoon_features","cocoon_gallery_video","cocoon_parallax","cocoon_parallax_apps","cocoon_parallax_counters","cocoon_parallax_features","cocoon_parallax_testimonials","cocoon_parallax_subscribe","cocoon_parallax_subscribe_2","cocoon_partners","cocoon_parallax_white","cocoon_pills","cocoon_price_tables","cocoon_price_tables_dark","cocoon_services","cocoon_services_dark","cocoon_simple_counters","cocoon_hero_1","cocoon_hero_2","cocoon_hero_3","cocoon_hero_4","cocoon_hero_5","cocoon_hero_6","cocoon_hero_7","cocoon_slider_1","cocoon_slider_1_v","cocoon_slider_2","cocoon_slider_3","cocoon_slider_4","cocoon_slider_5","cocoon_slider_6","cocoon_slider_7","cocoon_slider_8","cocoon_steps","cocoon_steps_dark","cocoon_subscribe","cocoon_tablets","cocoon_tabs","cocoon_tstmnls","cocoon_tstmnls_2","cocoon_tstmnls_3","cocoon_tstmnls_4","cocoon_tstmnls_5","cocoon_tstmnls_6","cocoon_contact_form","cocoon_course_categories","cocoon_course_categories_2","cocoon_course_categories_3","cocoon_course_categories_4","cocoon_course_categories_5","cocoon_course_overview","cocoon_course_instructor","cocoon_course_rating","cocoon_course_grid","cocoon_course_grid_2","cocoon_course_grid_3","cocoon_course_grid_4","cocoon_course_grid_5","cocoon_course_grid_6","cocoon_course_grid_7","cocoon_course_grid_8","cocoon_featuredcourses","cocoon_courses_slider","cocoon_more_courses","cocoon_users_slider","cocoon_users_slider_2","cocoon_users_slider_2_dark","cocoon_users_slider_round"], "401");
+M.util.help_popups.setup(Y);
+ M.util.js_pending('random650dabf3dc63c4'); Y.on('domready', function() { M.util.js_complete("init");  M.util.js_complete('random650dabf3dc63c4'); });
+})();
+//]]>
+</script>
+
+  </div><div id="yui3-css-stamp" style="position: absolute !important; visibility: hidden !important" class=""></div></div>
+  <div class="mm-wrapper__blocker mm-slideout"><a href="#mm-0"><span class="mm-sronly">Close menu</span></a></div>
+  
+
+
+<iframe id="_hjSafeContext_39910145" title="_hjSafeContext" tabindex="-1" aria-hidden="true" src="about:blank" style="display: none !important; width: 1px !important; height: 1px !important; opacity: 0 !important; pointer-events: none !important;"></iframe></body></html>
