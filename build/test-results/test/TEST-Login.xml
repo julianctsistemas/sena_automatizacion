@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <testsuite name="Login" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-09-22T16:13:48" hostname="DESKTOP-VV16LJT" time="23.528">
   <properties/>
   <testcase name="Login Successful" classname="Login" time="23.528"/>
@@ -12,6 +13,21 @@ Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
 sep 22, 2023 11:13:50 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+=======
+<testsuite name="Login" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-09-22T15:47:17" hostname="DESKTOP-26E28QT" time="30.068">
+  <properties/>
+  <testcase name="Login Successful" classname="Login" time="30.068"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[sep 22, 2023 10:47:17 AM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: --start-maximized, goog:chromeOptions: {args: [--start-maximized], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
+Starting ChromeDriver 117.0.5938.88 (be6afae4721209be42944bbcd325665f9f44563b-refs/branch-heads/5938_62@{#9}) on port 32000
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+sep 22, 2023 10:47:19 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+>>>>>>> 3f1f983a2f257013758a833951d1103aeeff6e26
 INFORMACIÓN: Detected dialect: W3C
 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
         __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  

@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Login" skipped="0" tests="1" time="22.77" timestamp="2023-09-22 11:13:47"><testcase name="Login Successful"/></testsuite>
+=======
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Login" skipped="0" tests="1" time="29.37" timestamp="2023-09-22 10:47:16"><testcase name="Login Successful"/></testsuite>
+>>>>>>> 3f1f983a2f257013758a833951d1103aeeff6e26
