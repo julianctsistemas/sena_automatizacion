@@ -39,7 +39,7 @@ public class LoginStepDefinition {
     public void heUserEnterTheCredentials(List<LoginCredential> loginCredentialList) {
 
         LoginCredential loginCredential;
-        loginCredential = loginCredentialList.get(0);
+        loginCredential = loginCredentialList.get(1);
 
 
         OnStage.theActorInTheSpotlight().attemptsTo(LoginTask.enterCredential(loginCredential));
